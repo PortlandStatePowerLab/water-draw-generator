@@ -1,0 +1,4338 @@
+clock {
+	timestamp '2021-12-25 00:00:00';
+	stoptime '2021-12-25 23:59:00';
+};
+module tape {
+};
+
+module powerflow {
+	solver_method FBS;
+	default_maximum_voltage_error 1e-9;
+	line_limits TRUE;
+};
+
+
+module climate {
+};
+
+module residential {
+	implicit_enduses NONE;
+	ANSI_voltage_check TRUE;
+};
+
+#include "./downstream_objects.glm";
+#include "./multi_recorders.glm";
+
+class player {
+    double value;
+}
+#include "./player_objects.glm";
+
+object triplex_line_conductor {
+	name tp_line_conductor;
+	resistance 0.97;
+	geometric_mean_radius 0.0111;
+};
+
+object triplex_line_configuration {
+	name triplex_line_configuration_1;
+	conductor_1 tp_line_conductor;
+	conductor_2 tp_line_conductor;
+	conductor_N tp_line_conductor;
+	insulation_thickness 0.08;
+	diameter 0.168;
+};
+
+object overhead_line_conductor:6010 {
+	geometric_mean_radius 0.031300;
+	resistance 0.185900;
+};
+
+object overhead_line_conductor:6020 {
+	geometric_mean_radius 0.00814;
+	resistance 0.592000;
+};
+
+object overhead_line_conductor:6030 {
+	geometric_mean_radius 0.004460;
+	resistance 1.120000;
+};
+
+object underground_line_conductor:6060 {
+	outer_diameter 1.290000;
+	conductor_gmr 0.017100;
+	conductor_diameter 0.567000;
+	conductor_resistance 0.410000;
+	neutral_gmr 0.0020800;
+	neutral_resistance 14.87200;
+	neutral_diameter 0.0640837;
+	neutral_strands 13.000000;
+	shield_gmr 0.000000;
+	shield_resistance 0.000000;
+};
+
+object underground_line_conductor:6070 {
+	outer_diameter 1.060000;
+	conductor_gmr 0.011100;
+	conductor_diameter 0.368000;
+	conductor_resistance 0.970000;
+	neutral_gmr 0.011100;
+	neutral_resistance 0.970000;
+	neutral_diameter 0.0640837;
+	neutral_strands 6.000000;
+	shield_gmr 0.000000;
+	shield_resistance 0.000000;
+};
+
+object line_spacing:500601 {
+	distance_AB 2.5;
+	distance_AC 4.5;
+	distance_BC 7.0;
+	distance_BN 5.656854;
+	distance_AN 4.272002;
+	distance_CN 5.0;
+};
+
+object line_spacing:500602 {
+	distance_AC 2.5;
+	distance_AB 4.5;
+	distance_BC 7.0;
+	distance_CN 5.656854;
+	distance_AN 4.272002;
+	distance_BN 5.0;
+};
+
+object line_spacing:505603 {
+	distance_AC 0.0;
+	distance_AB 0.0;
+	distance_BC 7.0;
+	distance_AN 0.0;
+	distance_CN 5.656854;
+	distance_BN 5.0;
+};
+
+object line_spacing:505604 {
+	distance_AC 7.0;
+	distance_AB 0.0;
+	distance_BC 0.0;
+	distance_AN 5.656854;
+	distance_CN 5.0;
+	distance_BN 0.0;
+};
+
+object line_spacing:510 {
+	distance_AC 0.0;
+	distance_AB 0.0;
+	distance_BC 0.0;
+	distance_AN 0.0;
+	distance_CN 5.0;
+	distance_BN 0.0;
+};
+
+object line_configuration:601 {
+	conductor_A overhead_line_conductor:6010;
+	conductor_B overhead_line_conductor:6010;
+	conductor_C overhead_line_conductor:6010;
+	conductor_N overhead_line_conductor:6020;
+	spacing line_spacing:500601;
+};
+
+object line_configuration:602 {
+	conductor_A overhead_line_conductor:6020;
+	conductor_B overhead_line_conductor:6020;
+	conductor_C overhead_line_conductor:6020;
+	conductor_N overhead_line_conductor:6020;
+	spacing line_spacing:500602;
+};
+
+object line_configuration:603 {
+	conductor_B overhead_line_conductor:6030;
+	conductor_C overhead_line_conductor:6030;
+	conductor_N overhead_line_conductor:6030;
+	spacing line_spacing:505603;
+};
+
+object line_configuration:604 {
+	conductor_A overhead_line_conductor:6030;
+	conductor_C overhead_line_conductor:6030;
+	conductor_N overhead_line_conductor:6030;
+	spacing line_spacing:505604;
+};
+
+object line_configuration:605 {
+	conductor_C overhead_line_conductor:6030;
+	conductor_N overhead_line_conductor:6030;
+	spacing line_spacing:510;
+};
+
+object line_configuration:655 {
+	conductor_A overhead_line_conductor:6030;
+	conductor_N overhead_line_conductor:6030;
+	spacing line_spacing:510;
+};
+
+object line_configuration:656 {
+	conductor_B overhead_line_conductor:6030;
+	conductor_N overhead_line_conductor:6030;
+	spacing line_spacing:510;
+};
+
+object line_spacing:515 {
+	distance_AB 0.500000;
+	distance_BC 0.500000;
+	distance_AC 1.000000;
+	distance_AN 0.000000;
+	distance_BN 0.000000;
+	distance_CN 0.000000;
+};
+
+object line_spacing:520 {
+	distance_AB 0.000000;
+	distance_BC 0.000000;
+	distance_AC 0.000000;
+	distance_AN 0.083333;
+	distance_BN 0.000000;
+	distance_CN 0.000000;
+};
+
+object line_configuration:606 {
+	conductor_A underground_line_conductor:6060;
+	conductor_B underground_line_conductor:6060;
+	conductor_C underground_line_conductor:6060;
+	spacing line_spacing:515;
+};
+
+object line_configuration:607 {
+	conductor_A underground_line_conductor:6070;
+	conductor_N underground_line_conductor:6070;
+	spacing line_spacing:520;
+};
+
+object overhead_line:632645 {
+	phases BCN;
+	name OL632-645;
+	from node:632;
+	to node:645;
+	length 500;
+	configuration line_configuration:603;
+};
+
+object overhead_line:645646 {
+	phases BCN;
+	name OL645-646;
+	from node:645;
+	to node:646;
+	length 300;
+	configuration line_configuration:603;
+};
+
+object overhead_line:630632 {
+	phases ABCN;
+	name OL630-632;
+	from node:630;
+	to node:632;
+	length 2000;
+	configuration line_configuration:601;
+};
+
+object overhead_line:6326321 {
+	phases ABCN;
+	name OL632-6321;
+	from node:632;
+	to node:6321;
+	length 500;
+	configuration line_configuration:601;
+};
+
+object overhead_line:6321671 {
+	phases ABCN;
+	name OL6321-671;
+	from node:6321;
+	to node:671;
+	length 1500;
+	configuration line_configuration:601;
+};
+
+object overhead_line:671680 {
+	phases ABCN;
+	name OL671-680;
+	from node:671;
+	to node:680;
+	length 1000;
+	configuration line_configuration:601;
+};
+
+object overhead_line:671684 {
+	phases ACN;
+	name OL671-684;
+	from node:671;
+	to node:684;
+	length 300;
+	configuration line_configuration:604;
+};
+
+object overhead_line:684611 {
+	phases CN;
+	name OL684-611;
+	from node:684;
+	to node:611;
+	length 300;
+	configuration line_configuration:605;
+};
+
+object underground_line:684652 {
+	phases AN;
+	name UL684-652;
+	from node:684;
+	to node:652;
+	length 800;
+	configuration line_configuration:607;
+};
+
+object underground_line:692675 {
+	phases ABC;
+	name UL692-675;
+	from node:692;
+	to node:675;
+	length 500;
+	configuration line_configuration:606;
+};
+
+object overhead_line:632633 {
+	phases ABCN;
+	name UL632-633;
+	from node:632;
+	to node:633;
+	length 500;
+	configuration line_configuration:602;
+};
+
+object node:630 {
+	name N630;
+	phases ABCN;
+	voltage_A 2401.7771+0j;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object node:650 {
+	name N650;
+	phases ABCN;
+	bustype SWING;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object node:6711 {
+	name N6711;
+	parent N611;
+	phases CN;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object node:6321 {
+	name N6321;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object node:634 {
+	name N634;
+	phases ABCN;
+	voltage_A 480.000+0j;
+	voltage_B -240.000-415.6922j;
+	voltage_C -240.000+415.6922j;
+	nominal_voltage 480.000;
+};
+
+object switch:671692 {
+	phases ABCN;
+	name S671-692;
+	from node:671;
+	to node:692;
+	status OPEN;
+};
+
+object transformer_configuration:400 {
+	connect_type WYE_WYE;
+	install_type PADMOUNT;
+	power_rating 500;
+	primary_voltage 4160;
+	secondary_voltage 480;
+	resistance 0.011;
+	reactance 0.02;
+};
+
+object transformer:633634 {
+	phases ABCN;
+	name T633-634;
+	from node:633;
+	to node:634;
+	configuration transformer_configuration:400;
+};
+
+object transformer_configuration {
+	name AS100_config;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerA_rating 100;
+	primary_voltage 2401;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object transformer_configuration {
+	name BS100_config;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerB_rating 100;
+	primary_voltage 2401;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object transformer_configuration {
+	name CS100_config;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerC_rating 100;
+	primary_voltage 2401;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object transformer_configuration {
+	name AS_config_node634;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerA_rating 75;
+	primary_voltage 480.0000;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object transformer_configuration {
+	name BS_config_node634;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerB_rating 75;
+	primary_voltage 480.0000;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object transformer_configuration {
+	name CS_config_node634;
+	connect_type SINGLE_PHASE_CENTER_TAPPED;
+	install_type POLETOP;
+	powerC_rating 75;
+	primary_voltage 480.0000;
+	secondary_voltage 120.000;
+	impedance 0.006+0.0136j;
+};
+
+object regulator_configuration:6506321 {
+	connect_type WYE_WYE;
+	band_center 122.000;
+	band_width 2.0;
+	time_delay 0.0;
+	dwell_time 0.0;
+	raise_taps 16;
+	lower_taps 16;
+	current_transducer_ratio 700;
+	power_transducer_ratio 20;
+	compensator_r_setting_A 3.0;
+	compensator_x_setting_A 9.0;
+	compensator_r_setting_B 3.0;
+	compensator_x_setting_B 9.0;
+	compensator_r_setting_C 3.0;
+	compensator_x_setting_C 9.0;
+	CT_phase ABC;
+	PT_phase ABC;
+	Control MANUAL;
+	control_level INDIVIDUAL;
+	Type A;
+	tap_pos_A 0;
+	tap_pos_B 0;
+	tap_pos_C 0;
+	regulation 0.10;
+};
+
+object regulator:650630 {
+	phases ABCN;
+	from node:650;
+	to node:630;
+	sense_node N671;
+	configuration regulator_configuration:6506321;
+};
+
+object capacitor {
+	phases ABCN;
+	name CAP1;
+	pt_phase ABCN;
+	parent N675;
+	phases_connected ABCN;
+	control VOLT;
+	voltage_set_high 2500.0;
+	voltage_set_low 1950.0;
+	capacitor_A "0.300 MVAr";
+	capacitor_B "0.300 MVAr";
+	capacitor_C "0.300 MVAr";
+	control_level INDIVIDUAL;
+	time_delay 0.0;
+	dwell_time 0.0;
+	switchA CLOSED;
+	switchB CLOSED;
+	switchC CLOSED;
+	nominal_voltage 2401.7771;
+};
+
+object capacitor {
+	phases ABCN;
+	name CAP2;
+	pt_phase ABCN;
+	parent N675;
+	phases_connected ABCN;
+	control VOLT;
+	voltage_set_high 2600.0;
+	voltage_set_low 2050.0;
+	capacitor_A "0.250 MVAr";
+	capacitor_B "0.250 MVAr";
+	capacitor_C "0.250 MVAr";
+	control_level INDIVIDUAL;
+	time_delay 300.0;
+	dwell_time 0.0;
+	switchA CLOSED;
+	switchB CLOSED;
+	switchC CLOSED;
+	nominal_voltage 2401.7771;
+};
+
+object node:646 {
+	name N646;
+	phases BCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object node:652 {
+	name N652;
+	phases AN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_652_A;
+	phases AN;
+	from N652;
+	to meter_652_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name meter_652_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object node:611 {
+	name N611;
+	phases CN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_611_C;
+	phases CN;
+	from N611;
+	to meter_611_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_611_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:684 {
+	name N684;
+	phases ACN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_684_A;
+	phases AN;
+	from N684;
+	to meter_684_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_684_C;
+	phases CN;
+	from N684;
+	to meter_684_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_684_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_684_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:645 {
+	name N645;
+	phases BCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_645_B;
+	phases BN;
+	from N645;
+	to meter_645_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_645_C;
+	phases CN;
+	from N645;
+	to meter_645_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_645_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_645_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:633 {
+	name N633;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_633_A;
+	phases AN;
+	from N633;
+	to meter_633_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_633_B;
+	phases BN;
+	from N633;
+	to meter_633_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_633_C;
+	phases CN;
+	from N633;
+	to meter_633_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_633_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_633_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_633_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:632 {
+	name N632;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_632_A;
+	phases AN;
+	from N632;
+	to meter_632_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_632_B;
+	phases BN;
+	from N632;
+	to meter_632_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_632_C;
+	phases CN;
+	from N632;
+	to meter_632_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_632_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_632_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_632_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:692 {
+	name N692;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_692_A;
+	phases AN;
+	from N692;
+	to meter_692_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_692_B;
+	phases BN;
+	from N692;
+	to meter_692_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_692_C;
+	phases CN;
+	from N692;
+	to meter_692_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_692_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_692_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_692_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:675 {
+	name N675;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_675_A;
+	phases AN;
+	from N675;
+	to meter_675_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_675_B;
+	phases BN;
+	from N675;
+	to meter_675_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_675_C;
+	phases CN;
+	from N675;
+	to meter_675_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_675_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_675_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_675_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:671 {
+	name N671;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_671_A;
+	phases AN;
+	from N671;
+	to meter_671_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_671_B;
+	phases BN;
+	from N671;
+	to meter_671_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_671_C;
+	phases CN;
+	from N671;
+	to meter_671_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_671_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_671_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_671_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object node:680 {
+	name N680;
+	phases ABCN;
+	voltage_A 2401.7771;
+	voltage_B -1200.8886-2080.000j;
+	voltage_C -1200.8886+2080.000j;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_680_A;
+	phases AN;
+	from N680;
+	to meter_680_A;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object overhead_line {
+	name OL_680_B;
+	phases BN;
+	from N680;
+	to meter_680_B;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object overhead_line {
+	name OL_680_C;
+	phases CN;
+	from N680;
+	to meter_680_C;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name meter_680_A;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_680_B;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object meter {
+	name meter_680_C;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object overhead_line {
+	name OL_652_A_xfmr_652_A_1;
+	phases AN;
+	from meter_652_A;
+	to xfmr_meter_652_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_652_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_652_A_1;
+	phases AS;
+	from xfmr_meter_652_A_1;
+	to trip_node_652_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_652_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_652_A_xfmr_652_A_2;
+	phases AN;
+	from meter_652_A;
+	to xfmr_meter_652_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_652_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_652_A_2;
+	phases AS;
+	from xfmr_meter_652_A_2;
+	to trip_node_652_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_652_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_652_A_xfmr_652_A_3;
+	phases AN;
+	from meter_652_A;
+	to xfmr_meter_652_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_652_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_652_A_3;
+	phases AS;
+	from xfmr_meter_652_A_3;
+	to trip_node_652_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_652_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_652_A_xfmr_652_A_4;
+	phases AN;
+	from meter_652_A;
+	to xfmr_meter_652_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_652_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_652_A_4;
+	phases AS;
+	from xfmr_meter_652_A_4;
+	to trip_node_652_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_652_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_652_A_xfmr_652_A_5;
+	phases AN;
+	from meter_652_A;
+	to xfmr_meter_652_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_652_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_652_A_5;
+	phases AS;
+	from xfmr_meter_652_A_5;
+	to trip_node_652_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_652_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_611_C_xfmr_611_C_1;
+	phases CN;
+	from meter_611_C;
+	to xfmr_meter_611_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_611_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_611_C_1;
+	phases CS;
+	from xfmr_meter_611_C_1;
+	to trip_node_611_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_611_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_611_C_xfmr_611_C_2;
+	phases CN;
+	from meter_611_C;
+	to xfmr_meter_611_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_611_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_611_C_2;
+	phases CS;
+	from xfmr_meter_611_C_2;
+	to trip_node_611_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_611_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_611_C_xfmr_611_C_3;
+	phases CN;
+	from meter_611_C;
+	to xfmr_meter_611_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_611_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_611_C_3;
+	phases CS;
+	from xfmr_meter_611_C_3;
+	to trip_node_611_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_611_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_611_C_xfmr_611_C_4;
+	phases CN;
+	from meter_611_C;
+	to xfmr_meter_611_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_611_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_611_C_4;
+	phases CS;
+	from xfmr_meter_611_C_4;
+	to trip_node_611_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_611_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_611_C_xfmr_611_C_5;
+	phases CN;
+	from meter_611_C;
+	to xfmr_meter_611_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_611_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_611_C_5;
+	phases CS;
+	from xfmr_meter_611_C_5;
+	to trip_node_611_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_611_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_C_xfmr_684_C_1;
+	phases CN;
+	from meter_684_C;
+	to xfmr_meter_684_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_684_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_C_1;
+	phases CS;
+	from xfmr_meter_684_C_1;
+	to trip_node_684_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_C_xfmr_684_C_2;
+	phases CN;
+	from meter_684_C;
+	to xfmr_meter_684_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_684_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_C_2;
+	phases CS;
+	from xfmr_meter_684_C_2;
+	to trip_node_684_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_C_xfmr_684_C_3;
+	phases CN;
+	from meter_684_C;
+	to xfmr_meter_684_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_684_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_C_3;
+	phases CS;
+	from xfmr_meter_684_C_3;
+	to trip_node_684_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_C_xfmr_684_C_4;
+	phases CN;
+	from meter_684_C;
+	to xfmr_meter_684_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_684_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_C_4;
+	phases CS;
+	from xfmr_meter_684_C_4;
+	to trip_node_684_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_C_xfmr_684_C_5;
+	phases CN;
+	from meter_684_C;
+	to xfmr_meter_684_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_684_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_C_5;
+	phases CS;
+	from xfmr_meter_684_C_5;
+	to trip_node_684_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_A_xfmr_684_A_1;
+	phases AN;
+	from meter_684_A;
+	to xfmr_meter_684_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_684_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_A_1;
+	phases AS;
+	from xfmr_meter_684_A_1;
+	to trip_node_684_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_A_xfmr_684_A_2;
+	phases AN;
+	from meter_684_A;
+	to xfmr_meter_684_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_684_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_A_2;
+	phases AS;
+	from xfmr_meter_684_A_2;
+	to trip_node_684_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_A_xfmr_684_A_3;
+	phases AN;
+	from meter_684_A;
+	to xfmr_meter_684_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_684_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_A_3;
+	phases AS;
+	from xfmr_meter_684_A_3;
+	to trip_node_684_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_A_xfmr_684_A_4;
+	phases AN;
+	from meter_684_A;
+	to xfmr_meter_684_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_684_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_A_4;
+	phases AS;
+	from xfmr_meter_684_A_4;
+	to trip_node_684_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_684_A_xfmr_684_A_5;
+	phases AN;
+	from meter_684_A;
+	to xfmr_meter_684_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_684_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_684_A_5;
+	phases AS;
+	from xfmr_meter_684_A_5;
+	to trip_node_684_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_684_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_B_xfmr_645_B_1;
+	phases BN;
+	from meter_645_B;
+	to xfmr_meter_645_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_645_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_B_1;
+	phases BS;
+	from xfmr_meter_645_B_1;
+	to trip_node_645_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_B_xfmr_645_B_2;
+	phases BN;
+	from meter_645_B;
+	to xfmr_meter_645_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_645_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_B_2;
+	phases BS;
+	from xfmr_meter_645_B_2;
+	to trip_node_645_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_B_xfmr_645_B_3;
+	phases BN;
+	from meter_645_B;
+	to xfmr_meter_645_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_645_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_B_3;
+	phases BS;
+	from xfmr_meter_645_B_3;
+	to trip_node_645_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_B_xfmr_645_B_4;
+	phases BN;
+	from meter_645_B;
+	to xfmr_meter_645_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_645_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_B_4;
+	phases BS;
+	from xfmr_meter_645_B_4;
+	to trip_node_645_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_B_xfmr_645_B_5;
+	phases BN;
+	from meter_645_B;
+	to xfmr_meter_645_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_645_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_B_5;
+	phases BS;
+	from xfmr_meter_645_B_5;
+	to trip_node_645_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_C_xfmr_645_C_1;
+	phases CN;
+	from meter_645_C;
+	to xfmr_meter_645_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_645_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_C_1;
+	phases CS;
+	from xfmr_meter_645_C_1;
+	to trip_node_645_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_C_xfmr_645_C_2;
+	phases CN;
+	from meter_645_C;
+	to xfmr_meter_645_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_645_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_C_2;
+	phases CS;
+	from xfmr_meter_645_C_2;
+	to trip_node_645_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_C_xfmr_645_C_3;
+	phases CN;
+	from meter_645_C;
+	to xfmr_meter_645_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_645_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_C_3;
+	phases CS;
+	from xfmr_meter_645_C_3;
+	to trip_node_645_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_C_xfmr_645_C_4;
+	phases CN;
+	from meter_645_C;
+	to xfmr_meter_645_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_645_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_C_4;
+	phases CS;
+	from xfmr_meter_645_C_4;
+	to trip_node_645_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_645_C_xfmr_645_C_5;
+	phases CN;
+	from meter_645_C;
+	to xfmr_meter_645_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_645_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_645_C_5;
+	phases CS;
+	from xfmr_meter_645_C_5;
+	to trip_node_645_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_645_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_A_xfmr_633_A_1;
+	phases AN;
+	from meter_633_A;
+	to xfmr_meter_633_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_633_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_A_1;
+	phases AS;
+	from xfmr_meter_633_A_1;
+	to trip_node_633_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_A_xfmr_633_A_2;
+	phases AN;
+	from meter_633_A;
+	to xfmr_meter_633_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_633_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_A_2;
+	phases AS;
+	from xfmr_meter_633_A_2;
+	to trip_node_633_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_A_xfmr_633_A_3;
+	phases AN;
+	from meter_633_A;
+	to xfmr_meter_633_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_633_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_A_3;
+	phases AS;
+	from xfmr_meter_633_A_3;
+	to trip_node_633_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_A_xfmr_633_A_4;
+	phases AN;
+	from meter_633_A;
+	to xfmr_meter_633_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_633_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_A_4;
+	phases AS;
+	from xfmr_meter_633_A_4;
+	to trip_node_633_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_A_xfmr_633_A_5;
+	phases AN;
+	from meter_633_A;
+	to xfmr_meter_633_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_633_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_A_5;
+	phases AS;
+	from xfmr_meter_633_A_5;
+	to trip_node_633_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_B_xfmr_633_B_1;
+	phases BN;
+	from meter_633_B;
+	to xfmr_meter_633_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_633_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_B_1;
+	phases BS;
+	from xfmr_meter_633_B_1;
+	to trip_node_633_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_B_xfmr_633_B_2;
+	phases BN;
+	from meter_633_B;
+	to xfmr_meter_633_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_633_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_B_2;
+	phases BS;
+	from xfmr_meter_633_B_2;
+	to trip_node_633_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_B_xfmr_633_B_3;
+	phases BN;
+	from meter_633_B;
+	to xfmr_meter_633_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_633_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_B_3;
+	phases BS;
+	from xfmr_meter_633_B_3;
+	to trip_node_633_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_B_xfmr_633_B_4;
+	phases BN;
+	from meter_633_B;
+	to xfmr_meter_633_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_633_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_B_4;
+	phases BS;
+	from xfmr_meter_633_B_4;
+	to trip_node_633_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_B_xfmr_633_B_5;
+	phases BN;
+	from meter_633_B;
+	to xfmr_meter_633_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_633_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_B_5;
+	phases BS;
+	from xfmr_meter_633_B_5;
+	to trip_node_633_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_C_xfmr_633_C_1;
+	phases CN;
+	from meter_633_C;
+	to xfmr_meter_633_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_633_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_C_1;
+	phases CS;
+	from xfmr_meter_633_C_1;
+	to trip_node_633_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_C_xfmr_633_C_2;
+	phases CN;
+	from meter_633_C;
+	to xfmr_meter_633_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_633_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_C_2;
+	phases CS;
+	from xfmr_meter_633_C_2;
+	to trip_node_633_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_C_xfmr_633_C_3;
+	phases CN;
+	from meter_633_C;
+	to xfmr_meter_633_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_633_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_C_3;
+	phases CS;
+	from xfmr_meter_633_C_3;
+	to trip_node_633_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_C_xfmr_633_C_4;
+	phases CN;
+	from meter_633_C;
+	to xfmr_meter_633_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_633_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_C_4;
+	phases CS;
+	from xfmr_meter_633_C_4;
+	to trip_node_633_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_633_C_xfmr_633_C_5;
+	phases CN;
+	from meter_633_C;
+	to xfmr_meter_633_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_633_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_633_C_5;
+	phases CS;
+	from xfmr_meter_633_C_5;
+	to trip_node_633_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_633_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_A_xfmr_632_A_1;
+	phases AN;
+	from meter_632_A;
+	to xfmr_meter_632_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_632_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_A_1;
+	phases AS;
+	from xfmr_meter_632_A_1;
+	to trip_node_632_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_A_xfmr_632_A_2;
+	phases AN;
+	from meter_632_A;
+	to xfmr_meter_632_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_632_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_A_2;
+	phases AS;
+	from xfmr_meter_632_A_2;
+	to trip_node_632_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_A_xfmr_632_A_3;
+	phases AN;
+	from meter_632_A;
+	to xfmr_meter_632_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_632_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_A_3;
+	phases AS;
+	from xfmr_meter_632_A_3;
+	to trip_node_632_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_A_xfmr_632_A_4;
+	phases AN;
+	from meter_632_A;
+	to xfmr_meter_632_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_632_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_A_4;
+	phases AS;
+	from xfmr_meter_632_A_4;
+	to trip_node_632_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_A_xfmr_632_A_5;
+	phases AN;
+	from meter_632_A;
+	to xfmr_meter_632_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_632_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_A_5;
+	phases AS;
+	from xfmr_meter_632_A_5;
+	to trip_node_632_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_B_xfmr_632_B_1;
+	phases BN;
+	from meter_632_B;
+	to xfmr_meter_632_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_632_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_B_1;
+	phases BS;
+	from xfmr_meter_632_B_1;
+	to trip_node_632_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_B_xfmr_632_B_2;
+	phases BN;
+	from meter_632_B;
+	to xfmr_meter_632_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_632_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_B_2;
+	phases BS;
+	from xfmr_meter_632_B_2;
+	to trip_node_632_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_B_xfmr_632_B_3;
+	phases BN;
+	from meter_632_B;
+	to xfmr_meter_632_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_632_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_B_3;
+	phases BS;
+	from xfmr_meter_632_B_3;
+	to trip_node_632_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_B_xfmr_632_B_4;
+	phases BN;
+	from meter_632_B;
+	to xfmr_meter_632_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_632_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_B_4;
+	phases BS;
+	from xfmr_meter_632_B_4;
+	to trip_node_632_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_B_xfmr_632_B_5;
+	phases BN;
+	from meter_632_B;
+	to xfmr_meter_632_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_632_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_B_5;
+	phases BS;
+	from xfmr_meter_632_B_5;
+	to trip_node_632_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_C_xfmr_632_C_1;
+	phases CN;
+	from meter_632_C;
+	to xfmr_meter_632_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_632_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_C_1;
+	phases CS;
+	from xfmr_meter_632_C_1;
+	to trip_node_632_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_C_xfmr_632_C_2;
+	phases CN;
+	from meter_632_C;
+	to xfmr_meter_632_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_632_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_C_2;
+	phases CS;
+	from xfmr_meter_632_C_2;
+	to trip_node_632_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_C_xfmr_632_C_3;
+	phases CN;
+	from meter_632_C;
+	to xfmr_meter_632_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_632_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_C_3;
+	phases CS;
+	from xfmr_meter_632_C_3;
+	to trip_node_632_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_C_xfmr_632_C_4;
+	phases CN;
+	from meter_632_C;
+	to xfmr_meter_632_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_632_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_C_4;
+	phases CS;
+	from xfmr_meter_632_C_4;
+	to trip_node_632_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_632_C_xfmr_632_C_5;
+	phases CN;
+	from meter_632_C;
+	to xfmr_meter_632_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_632_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_632_C_5;
+	phases CS;
+	from xfmr_meter_632_C_5;
+	to trip_node_632_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_632_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_A_xfmr_692_A_1;
+	phases AN;
+	from meter_692_A;
+	to xfmr_meter_692_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_692_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_A_1;
+	phases AS;
+	from xfmr_meter_692_A_1;
+	to trip_node_692_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_A_xfmr_692_A_2;
+	phases AN;
+	from meter_692_A;
+	to xfmr_meter_692_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_692_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_A_2;
+	phases AS;
+	from xfmr_meter_692_A_2;
+	to trip_node_692_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_A_xfmr_692_A_3;
+	phases AN;
+	from meter_692_A;
+	to xfmr_meter_692_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_692_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_A_3;
+	phases AS;
+	from xfmr_meter_692_A_3;
+	to trip_node_692_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_A_xfmr_692_A_4;
+	phases AN;
+	from meter_692_A;
+	to xfmr_meter_692_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_692_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_A_4;
+	phases AS;
+	from xfmr_meter_692_A_4;
+	to trip_node_692_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_A_xfmr_692_A_5;
+	phases AN;
+	from meter_692_A;
+	to xfmr_meter_692_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_692_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_A_5;
+	phases AS;
+	from xfmr_meter_692_A_5;
+	to trip_node_692_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_B_xfmr_692_B_1;
+	phases BN;
+	from meter_692_B;
+	to xfmr_meter_692_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_692_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_B_1;
+	phases BS;
+	from xfmr_meter_692_B_1;
+	to trip_node_692_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_B_xfmr_692_B_2;
+	phases BN;
+	from meter_692_B;
+	to xfmr_meter_692_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_692_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_B_2;
+	phases BS;
+	from xfmr_meter_692_B_2;
+	to trip_node_692_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_B_xfmr_692_B_3;
+	phases BN;
+	from meter_692_B;
+	to xfmr_meter_692_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_692_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_B_3;
+	phases BS;
+	from xfmr_meter_692_B_3;
+	to trip_node_692_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_B_xfmr_692_B_4;
+	phases BN;
+	from meter_692_B;
+	to xfmr_meter_692_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_692_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_B_4;
+	phases BS;
+	from xfmr_meter_692_B_4;
+	to trip_node_692_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_B_xfmr_692_B_5;
+	phases BN;
+	from meter_692_B;
+	to xfmr_meter_692_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_692_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_B_5;
+	phases BS;
+	from xfmr_meter_692_B_5;
+	to trip_node_692_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_C_xfmr_692_C_1;
+	phases CN;
+	from meter_692_C;
+	to xfmr_meter_692_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_692_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_C_1;
+	phases CS;
+	from xfmr_meter_692_C_1;
+	to trip_node_692_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_C_xfmr_692_C_2;
+	phases CN;
+	from meter_692_C;
+	to xfmr_meter_692_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_692_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_C_2;
+	phases CS;
+	from xfmr_meter_692_C_2;
+	to trip_node_692_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_C_xfmr_692_C_3;
+	phases CN;
+	from meter_692_C;
+	to xfmr_meter_692_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_692_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_C_3;
+	phases CS;
+	from xfmr_meter_692_C_3;
+	to trip_node_692_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_C_xfmr_692_C_4;
+	phases CN;
+	from meter_692_C;
+	to xfmr_meter_692_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_692_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_C_4;
+	phases CS;
+	from xfmr_meter_692_C_4;
+	to trip_node_692_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_692_C_xfmr_692_C_5;
+	phases CN;
+	from meter_692_C;
+	to xfmr_meter_692_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_692_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_692_C_5;
+	phases CS;
+	from xfmr_meter_692_C_5;
+	to trip_node_692_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_692_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_A_xfmr_675_A_1;
+	phases AN;
+	from meter_675_A;
+	to xfmr_meter_675_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_675_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_A_1;
+	phases AS;
+	from xfmr_meter_675_A_1;
+	to trip_node_675_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_A_xfmr_675_A_2;
+	phases AN;
+	from meter_675_A;
+	to xfmr_meter_675_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_675_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_A_2;
+	phases AS;
+	from xfmr_meter_675_A_2;
+	to trip_node_675_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_A_xfmr_675_A_3;
+	phases AN;
+	from meter_675_A;
+	to xfmr_meter_675_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_675_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_A_3;
+	phases AS;
+	from xfmr_meter_675_A_3;
+	to trip_node_675_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_A_xfmr_675_A_4;
+	phases AN;
+	from meter_675_A;
+	to xfmr_meter_675_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_675_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_A_4;
+	phases AS;
+	from xfmr_meter_675_A_4;
+	to trip_node_675_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_A_xfmr_675_A_5;
+	phases AN;
+	from meter_675_A;
+	to xfmr_meter_675_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_675_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_A_5;
+	phases AS;
+	from xfmr_meter_675_A_5;
+	to trip_node_675_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_B_xfmr_675_B_1;
+	phases BN;
+	from meter_675_B;
+	to xfmr_meter_675_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_675_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_B_1;
+	phases BS;
+	from xfmr_meter_675_B_1;
+	to trip_node_675_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_B_xfmr_675_B_2;
+	phases BN;
+	from meter_675_B;
+	to xfmr_meter_675_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_675_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_B_2;
+	phases BS;
+	from xfmr_meter_675_B_2;
+	to trip_node_675_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_B_xfmr_675_B_3;
+	phases BN;
+	from meter_675_B;
+	to xfmr_meter_675_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_675_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_B_3;
+	phases BS;
+	from xfmr_meter_675_B_3;
+	to trip_node_675_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_B_xfmr_675_B_4;
+	phases BN;
+	from meter_675_B;
+	to xfmr_meter_675_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_675_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_B_4;
+	phases BS;
+	from xfmr_meter_675_B_4;
+	to trip_node_675_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_B_xfmr_675_B_5;
+	phases BN;
+	from meter_675_B;
+	to xfmr_meter_675_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_675_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_B_5;
+	phases BS;
+	from xfmr_meter_675_B_5;
+	to trip_node_675_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_C_xfmr_675_C_1;
+	phases CN;
+	from meter_675_C;
+	to xfmr_meter_675_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_675_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_C_1;
+	phases CS;
+	from xfmr_meter_675_C_1;
+	to trip_node_675_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_C_xfmr_675_C_2;
+	phases CN;
+	from meter_675_C;
+	to xfmr_meter_675_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_675_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_C_2;
+	phases CS;
+	from xfmr_meter_675_C_2;
+	to trip_node_675_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_C_xfmr_675_C_3;
+	phases CN;
+	from meter_675_C;
+	to xfmr_meter_675_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_675_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_C_3;
+	phases CS;
+	from xfmr_meter_675_C_3;
+	to trip_node_675_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_C_xfmr_675_C_4;
+	phases CN;
+	from meter_675_C;
+	to xfmr_meter_675_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_675_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_C_4;
+	phases CS;
+	from xfmr_meter_675_C_4;
+	to trip_node_675_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_675_C_xfmr_675_C_5;
+	phases CN;
+	from meter_675_C;
+	to xfmr_meter_675_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_675_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_675_C_5;
+	phases CS;
+	from xfmr_meter_675_C_5;
+	to trip_node_675_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_675_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_A_xfmr_671_A_1;
+	phases AN;
+	from meter_671_A;
+	to xfmr_meter_671_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_671_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_A_1;
+	phases AS;
+	from xfmr_meter_671_A_1;
+	to trip_node_671_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_A_xfmr_671_A_2;
+	phases AN;
+	from meter_671_A;
+	to xfmr_meter_671_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_671_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_A_2;
+	phases AS;
+	from xfmr_meter_671_A_2;
+	to trip_node_671_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_A_xfmr_671_A_3;
+	phases AN;
+	from meter_671_A;
+	to xfmr_meter_671_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_671_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_A_3;
+	phases AS;
+	from xfmr_meter_671_A_3;
+	to trip_node_671_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_A_xfmr_671_A_4;
+	phases AN;
+	from meter_671_A;
+	to xfmr_meter_671_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_671_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_A_4;
+	phases AS;
+	from xfmr_meter_671_A_4;
+	to trip_node_671_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_A_xfmr_671_A_5;
+	phases AN;
+	from meter_671_A;
+	to xfmr_meter_671_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_671_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_A_5;
+	phases AS;
+	from xfmr_meter_671_A_5;
+	to trip_node_671_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_B_xfmr_671_B_1;
+	phases BN;
+	from meter_671_B;
+	to xfmr_meter_671_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_671_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_B_1;
+	phases BS;
+	from xfmr_meter_671_B_1;
+	to trip_node_671_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_B_xfmr_671_B_2;
+	phases BN;
+	from meter_671_B;
+	to xfmr_meter_671_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_671_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_B_2;
+	phases BS;
+	from xfmr_meter_671_B_2;
+	to trip_node_671_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_B_xfmr_671_B_3;
+	phases BN;
+	from meter_671_B;
+	to xfmr_meter_671_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_671_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_B_3;
+	phases BS;
+	from xfmr_meter_671_B_3;
+	to trip_node_671_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_B_xfmr_671_B_4;
+	phases BN;
+	from meter_671_B;
+	to xfmr_meter_671_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_671_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_B_4;
+	phases BS;
+	from xfmr_meter_671_B_4;
+	to trip_node_671_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_B_xfmr_671_B_5;
+	phases BN;
+	from meter_671_B;
+	to xfmr_meter_671_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_671_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_B_5;
+	phases BS;
+	from xfmr_meter_671_B_5;
+	to trip_node_671_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_C_xfmr_671_C_1;
+	phases CN;
+	from meter_671_C;
+	to xfmr_meter_671_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_671_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_C_1;
+	phases CS;
+	from xfmr_meter_671_C_1;
+	to trip_node_671_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_C_xfmr_671_C_2;
+	phases CN;
+	from meter_671_C;
+	to xfmr_meter_671_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_671_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_C_2;
+	phases CS;
+	from xfmr_meter_671_C_2;
+	to trip_node_671_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_C_xfmr_671_C_3;
+	phases CN;
+	from meter_671_C;
+	to xfmr_meter_671_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_671_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_C_3;
+	phases CS;
+	from xfmr_meter_671_C_3;
+	to trip_node_671_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_C_xfmr_671_C_4;
+	phases CN;
+	from meter_671_C;
+	to xfmr_meter_671_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_671_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_C_4;
+	phases CS;
+	from xfmr_meter_671_C_4;
+	to trip_node_671_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_671_C_xfmr_671_C_5;
+	phases CN;
+	from meter_671_C;
+	to xfmr_meter_671_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_671_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_671_C_5;
+	phases CS;
+	from xfmr_meter_671_C_5;
+	to trip_node_671_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_671_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_A_xfmr_680_A_1;
+	phases AN;
+	from meter_680_A;
+	to xfmr_meter_680_A_1;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_680_A_1;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_A_1;
+	phases AS;
+	from xfmr_meter_680_A_1;
+	to trip_node_680_A_1;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_A_1;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_A_xfmr_680_A_2;
+	phases AN;
+	from meter_680_A;
+	to xfmr_meter_680_A_2;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_680_A_2;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_A_2;
+	phases AS;
+	from xfmr_meter_680_A_2;
+	to trip_node_680_A_2;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_A_2;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_A_xfmr_680_A_3;
+	phases AN;
+	from meter_680_A;
+	to xfmr_meter_680_A_3;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_680_A_3;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_A_3;
+	phases AS;
+	from xfmr_meter_680_A_3;
+	to trip_node_680_A_3;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_A_3;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_A_xfmr_680_A_4;
+	phases AN;
+	from meter_680_A;
+	to xfmr_meter_680_A_4;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_680_A_4;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_A_4;
+	phases AS;
+	from xfmr_meter_680_A_4;
+	to trip_node_680_A_4;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_A_4;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_A_xfmr_680_A_5;
+	phases AN;
+	from meter_680_A;
+	to xfmr_meter_680_A_5;
+	length 10;
+	configuration line_configuration:655;
+};
+
+object meter {
+	name xfmr_meter_680_A_5;
+	phases AN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_A_5;
+	phases AS;
+	from xfmr_meter_680_A_5;
+	to trip_node_680_A_5;
+	configuration AS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_A_5;
+	phases AS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_B_xfmr_680_B_1;
+	phases BN;
+	from meter_680_B;
+	to xfmr_meter_680_B_1;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_680_B_1;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_B_1;
+	phases BS;
+	from xfmr_meter_680_B_1;
+	to trip_node_680_B_1;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_B_1;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_B_xfmr_680_B_2;
+	phases BN;
+	from meter_680_B;
+	to xfmr_meter_680_B_2;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_680_B_2;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_B_2;
+	phases BS;
+	from xfmr_meter_680_B_2;
+	to trip_node_680_B_2;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_B_2;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_B_xfmr_680_B_3;
+	phases BN;
+	from meter_680_B;
+	to xfmr_meter_680_B_3;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_680_B_3;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_B_3;
+	phases BS;
+	from xfmr_meter_680_B_3;
+	to trip_node_680_B_3;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_B_3;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_B_xfmr_680_B_4;
+	phases BN;
+	from meter_680_B;
+	to xfmr_meter_680_B_4;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_680_B_4;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_B_4;
+	phases BS;
+	from xfmr_meter_680_B_4;
+	to trip_node_680_B_4;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_B_4;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_B_xfmr_680_B_5;
+	phases BN;
+	from meter_680_B;
+	to xfmr_meter_680_B_5;
+	length 10;
+	configuration line_configuration:656;
+};
+
+object meter {
+	name xfmr_meter_680_B_5;
+	phases BN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_B_5;
+	phases BS;
+	from xfmr_meter_680_B_5;
+	to trip_node_680_B_5;
+	configuration BS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_B_5;
+	phases BS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_C_xfmr_680_C_1;
+	phases CN;
+	from meter_680_C;
+	to xfmr_meter_680_C_1;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_680_C_1;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_C_1;
+	phases CS;
+	from xfmr_meter_680_C_1;
+	to trip_node_680_C_1;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_C_1;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_C_xfmr_680_C_2;
+	phases CN;
+	from meter_680_C;
+	to xfmr_meter_680_C_2;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_680_C_2;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_C_2;
+	phases CS;
+	from xfmr_meter_680_C_2;
+	to trip_node_680_C_2;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_C_2;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_C_xfmr_680_C_3;
+	phases CN;
+	from meter_680_C;
+	to xfmr_meter_680_C_3;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_680_C_3;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_C_3;
+	phases CS;
+	from xfmr_meter_680_C_3;
+	to trip_node_680_C_3;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_C_3;
+	phases CS;
+	nominal_voltage 120;
+};
+object overhead_line {
+	name OL_680_C_xfmr_680_C_4;
+	phases CN;
+	from meter_680_C;
+	to xfmr_meter_680_C_4;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_680_C_4;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_C_4;
+	phases CS;
+	from xfmr_meter_680_C_4;
+	to trip_node_680_C_4;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_C_4;
+	phases CS;
+	nominal_voltage 120;
+};
+
+object overhead_line {
+	name OL_680_C_xfmr_680_C_5;
+	phases CN;
+	from meter_680_C;
+	to xfmr_meter_680_C_5;
+	length 10;
+	configuration line_configuration:605;
+};
+
+object meter {
+	name xfmr_meter_680_C_5;
+	phases CN;
+	nominal_voltage 2401.7771;
+};
+
+object transformer {
+	name xfmr_680_C_5;
+	phases CS;
+	from xfmr_meter_680_C_5;
+	to trip_node_680_C_5;
+	configuration CS100_config;
+};
+
+object triplex_node {
+	name trip_node_680_C_5;
+	phases CS;
+	nominal_voltage 120;
+};
+

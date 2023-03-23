@@ -1,0 +1,3840 @@
+object player {
+	name wd_652_wd_5br_231;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_231.csv";
+};
+object player {
+	name wd_652_wd_5br_134;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_134.csv";
+};
+object player {
+	name wd_652_wd_2br_318;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_318.csv";
+};
+object player {
+	name wd_652_wd_1br_143;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_143.csv";
+};
+object player {
+	name wd_652_wd_5br_292;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_292.csv";
+};
+object player {
+	name wd_652_wd_4br_48;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_48.csv";
+};
+object player {
+	name wd_652_wd_2br_296;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_296.csv";
+};
+object player {
+	name wd_652_wd_3br_166;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_166.csv";
+};
+object player {
+	name wd_652_wd_3br_164;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_164.csv";
+};
+object player {
+	name wd_652_wd_5br_339;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_339.csv";
+};
+object player {
+	name wd_652_wd_3br_66;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_66.csv";
+};
+object player {
+	name wd_652_wd_4br_230;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_230.csv";
+};
+object player {
+	name wd_652_wd_4br_350;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_350.csv";
+};
+object player {
+	name wd_652_wd_4br_269;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_269.csv";
+};
+object player {
+	name wd_652_wd_2br_248;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_248.csv";
+};
+object player {
+	name wd_652_wd_1br_266;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_266.csv";
+};
+object player {
+	name wd_652_wd_5br_192;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_192.csv";
+};
+object player {
+	name wd_652_wd_5br_249;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_249.csv";
+};
+object player {
+	name wd_652_wd_1br_175;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_175.csv";
+};
+object player {
+	name wd_652_wd_2br_140;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_140.csv";
+};
+object player {
+	name wd_652_wd_5br_299;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_299.csv";
+};
+object player {
+	name wd_652_wd_5br_208;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_208.csv";
+};
+object player {
+	name wd_652_wd_2br_305;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_305.csv";
+};
+object player {
+	name wd_652_wd_1br_5;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_5.csv";
+};
+object player {
+	name wd_652_wd_1br_297;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_297.csv";
+};
+object player {
+	name wd_652_wd_4br_279;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_279.csv";
+};
+object player {
+	name wd_652_wd_3br_309;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_309.csv";
+};
+object player {
+	name wd_652_wd_4br_292;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_292.csv";
+};
+object player {
+	name wd_652_wd_4br_248;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_248.csv";
+};
+object player {
+	name wd_652_wd_5br_293;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_293.csv";
+};
+object player {
+	name wd_652_wd_5br_350;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_350.csv";
+};
+object player {
+	name wd_652_wd_1br_217;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_217.csv";
+};
+object player {
+	name wd_652_wd_1br_122;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_122.csv";
+};
+object player {
+	name wd_652_wd_1br_30;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_30.csv";
+};
+object player {
+	name wd_652_wd_5br_245;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_245.csv";
+};
+object player {
+	name wd_652_wd_5br_199;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_199.csv";
+};
+object player {
+	name wd_652_wd_3br_107;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_107.csv";
+};
+object player {
+	name wd_652_wd_4br_108;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_108.csv";
+};
+object player {
+	name wd_652_wd_1br_281;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_281.csv";
+};
+object player {
+	name wd_652_wd_1br_3;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_3.csv";
+};
+object player {
+	name wd_611_wd_1br_55;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_55.csv";
+};
+object player {
+	name wd_611_wd_4br_54;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_54.csv";
+};
+object player {
+	name wd_611_wd_5br_170;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_170.csv";
+};
+object player {
+	name wd_611_wd_1br_46;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_46.csv";
+};
+object player {
+	name wd_611_wd_1br_184;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_184.csv";
+};
+object player {
+	name wd_611_wd_2br_213;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_213.csv";
+};
+object player {
+	name wd_611_wd_4br_37;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_37.csv";
+};
+object player {
+	name wd_611_wd_2br_13;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_13.csv";
+};
+object player {
+	name wd_611_wd_5br_115;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_115.csv";
+};
+object player {
+	name wd_611_wd_5br_166;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_166.csv";
+};
+object player {
+	name wd_611_wd_2br_125;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_125.csv";
+};
+object player {
+	name wd_611_wd_5br_298;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_298.csv";
+};
+object player {
+	name wd_611_wd_2br_61;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_61.csv";
+};
+object player {
+	name wd_611_wd_3br_292;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_292.csv";
+};
+object player {
+	name wd_611_wd_1br_301;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_301.csv";
+};
+object player {
+	name wd_611_wd_5br_46;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_46.csv";
+};
+object player {
+	name wd_611_wd_5br_97;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_97.csv";
+};
+object player {
+	name wd_611_wd_3br_347;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_347.csv";
+};
+object player {
+	name wd_611_wd_3br_258;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_258.csv";
+};
+object player {
+	name wd_611_wd_4br_61;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_61.csv";
+};
+object player {
+	name wd_611_wd_2br_55;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_55.csv";
+};
+object player {
+	name wd_611_wd_5br_38;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_38.csv";
+};
+object player {
+	name wd_611_wd_5br_114;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_114.csv";
+};
+object player {
+	name wd_611_wd_4br_214;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_214.csv";
+};
+object player {
+	name wd_611_wd_1br_222;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_222.csv";
+};
+object player {
+	name wd_611_wd_3br_106;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_106.csv";
+};
+object player {
+	name wd_611_wd_5br_87;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_87.csv";
+};
+object player {
+	name wd_611_wd_2br_312;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_312.csv";
+};
+object player {
+	name wd_611_wd_1br_32;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_32.csv";
+};
+object player {
+	name wd_611_wd_3br_325;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_325.csv";
+};
+object player {
+	name wd_611_wd_4br_245;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_245.csv";
+};
+object player {
+	name wd_611_wd_5br_203;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_203.csv";
+};
+object player {
+	name wd_611_wd_3br_124;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_124.csv";
+};
+object player {
+	name wd_611_wd_3br_38;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_38.csv";
+};
+object player {
+	name wd_611_wd_1br_64;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_64.csv";
+};
+object player {
+	name wd_611_wd_1br_108;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_108.csv";
+};
+object player {
+	name wd_611_wd_5br_95;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_95.csv";
+};
+object player {
+	name wd_611_wd_5br_266;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_266.csv";
+};
+object player {
+	name wd_611_wd_2br_17;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_17.csv";
+};
+object player {
+	name wd_611_wd_3br_179;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_179.csv";
+};
+object player {
+	name wd_684_wd_2br_202;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_202.csv";
+};
+object player {
+	name wd_684_wd_1br_179;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_179.csv";
+};
+object player {
+	name wd_684_wd_5br_278;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_278.csv";
+};
+object player {
+	name wd_684_wd_4br_238;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_238.csv";
+};
+object player {
+	name wd_684_wd_3br_275;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_275.csv";
+};
+object player {
+	name wd_684_wd_4br_174;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_174.csv";
+};
+object player {
+	name wd_684_wd_1br_219;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_219.csv";
+};
+object player {
+	name wd_684_wd_5br_41;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_41.csv";
+};
+object player {
+	name wd_684_wd_4br_323;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_323.csv";
+};
+object player {
+	name wd_684_wd_2br_98;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_98.csv";
+};
+object player {
+	name wd_684_wd_3br_74;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_74.csv";
+};
+object player {
+	name wd_684_wd_4br_347;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_347.csv";
+};
+object player {
+	name wd_684_wd_5br_180;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_180.csv";
+};
+object player {
+	name wd_684_wd_5br_66;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_66.csv";
+};
+object player {
+	name wd_684_wd_4br_31;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_31.csv";
+};
+object player {
+	name wd_684_wd_2br_188;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_188.csv";
+};
+object player {
+	name wd_684_wd_1br_215;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_215.csv";
+};
+object player {
+	name wd_684_wd_1br_269;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_269.csv";
+};
+object player {
+	name wd_684_wd_4br_234;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_234.csv";
+};
+object player {
+	name wd_684_wd_3br_255;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_255.csv";
+};
+object player {
+	name wd_684_wd_1br_12;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_12.csv";
+};
+object player {
+	name wd_684_wd_3br_173;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_173.csv";
+};
+object player {
+	name wd_684_wd_4br_227;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_227.csv";
+};
+object player {
+	name wd_684_wd_2br_209;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_209.csv";
+};
+object player {
+	name wd_684_wd_2br_141;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_141.csv";
+};
+object player {
+	name wd_684_wd_2br_316;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_316.csv";
+};
+object player {
+	name wd_684_wd_4br_246;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_246.csv";
+};
+object player {
+	name wd_684_wd_5br_154;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_154.csv";
+};
+object player {
+	name wd_684_wd_2br_304;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_304.csv";
+};
+object player {
+	name wd_684_wd_4br_235;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_235.csv";
+};
+object player {
+	name wd_684_wd_2br_289;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_289.csv";
+};
+object player {
+	name wd_684_wd_2br_90;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_90.csv";
+};
+object player {
+	name wd_684_wd_4br_77;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_77.csv";
+};
+object player {
+	name wd_684_wd_2br_257;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_257.csv";
+};
+object player {
+	name wd_684_wd_5br_104;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_104.csv";
+};
+object player {
+	name wd_684_wd_4br_98;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_98.csv";
+};
+object player {
+	name wd_684_wd_1br_146;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_146.csv";
+};
+object player {
+	name wd_684_wd_2br_107;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_107.csv";
+};
+object player {
+	name wd_684_wd_2br_260;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_260.csv";
+};
+object player {
+	name wd_684_wd_3br_148;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_148.csv";
+};
+object player {
+	name wd_684_wd_3br_291;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_291.csv";
+};
+object player {
+	name wd_684_wd_1br_10;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_10.csv";
+};
+object player {
+	name wd_684_wd_5br_351;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_351.csv";
+};
+object player {
+	name wd_684_wd_4br_298;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_298.csv";
+};
+object player {
+	name wd_684_wd_3br_54;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_54.csv";
+};
+object player {
+	name wd_684_wd_4br_251;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_251.csv";
+};
+object player {
+	name wd_684_wd_3br_254;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_254.csv";
+};
+object player {
+	name wd_684_wd_1br_125;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_125.csv";
+};
+object player {
+	name wd_684_wd_4br_232;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_232.csv";
+};
+object player {
+	name wd_684_wd_4br_95;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_95.csv";
+};
+object player {
+	name wd_684_wd_2br_35;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_35.csv";
+};
+object player {
+	name wd_684_wd_3br_293;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_293.csv";
+};
+object player {
+	name wd_684_wd_2br_155;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_155.csv";
+};
+object player {
+	name wd_684_wd_2br_150;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_150.csv";
+};
+object player {
+	name wd_684_wd_3br_81;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_81.csv";
+};
+object player {
+	name wd_684_wd_4br_1;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_1.csv";
+};
+object player {
+	name wd_684_wd_3br_68;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_68.csv";
+};
+object player {
+	name wd_684_wd_4br_276;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_276.csv";
+};
+object player {
+	name wd_684_wd_2br_233;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_233.csv";
+};
+object player {
+	name wd_684_wd_2br_221;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_221.csv";
+};
+object player {
+	name wd_684_wd_3br_221;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_221.csv";
+};
+object player {
+	name wd_684_wd_2br_331;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_331.csv";
+};
+object player {
+	name wd_684_wd_1br_37;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_37.csv";
+};
+object player {
+	name wd_684_wd_4br_10;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_10.csv";
+};
+object player {
+	name wd_684_wd_4br_156;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_156.csv";
+};
+object player {
+	name wd_684_wd_3br_18;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_18.csv";
+};
+object player {
+	name wd_684_wd_2br_92;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_92.csv";
+};
+object player {
+	name wd_684_wd_2br_76;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_76.csv";
+};
+object player {
+	name wd_684_wd_1br_66;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_66.csv";
+};
+object player {
+	name wd_684_wd_5br_331;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_331.csv";
+};
+object player {
+	name wd_684_wd_3br_300;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_300.csv";
+};
+object player {
+	name wd_684_wd_1br_274;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_274.csv";
+};
+object player {
+	name wd_684_wd_2br_344;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_344.csv";
+};
+object player {
+	name wd_684_wd_4br_271;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_271.csv";
+};
+object player {
+	name wd_684_wd_3br_136;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_136.csv";
+};
+object player {
+	name wd_684_wd_1br_214;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_214.csv";
+};
+object player {
+	name wd_684_wd_5br_80;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_80.csv";
+};
+object player {
+	name wd_684_wd_4br_143;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_143.csv";
+};
+object player {
+	name wd_684_wd_5br_256;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_256.csv";
+};
+object player {
+	name wd_684_wd_1br_209;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_209.csv";
+};
+object player {
+	name wd_645_wd_5br_227;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_227.csv";
+};
+object player {
+	name wd_645_wd_2br_323;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_323.csv";
+};
+object player {
+	name wd_645_wd_1br_112;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_112.csv";
+};
+object player {
+	name wd_645_wd_5br_89;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_89.csv";
+};
+object player {
+	name wd_645_wd_2br_33;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_33.csv";
+};
+object player {
+	name wd_645_wd_3br_344;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_344.csv";
+};
+object player {
+	name wd_645_wd_1br_340;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_340.csv";
+};
+object player {
+	name wd_645_wd_4br_171;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_171.csv";
+};
+object player {
+	name wd_645_wd_5br_88;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_88.csv";
+};
+object player {
+	name wd_645_wd_4br_200;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_200.csv";
+};
+object player {
+	name wd_645_wd_5br_169;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_169.csv";
+};
+object player {
+	name wd_645_wd_5br_305;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_305.csv";
+};
+object player {
+	name wd_645_wd_1br_28;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_28.csv";
+};
+object player {
+	name wd_645_wd_5br_195;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_195.csv";
+};
+object player {
+	name wd_645_wd_2br_43;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_43.csv";
+};
+object player {
+	name wd_645_wd_3br_237;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_237.csv";
+};
+object player {
+	name wd_645_wd_3br_341;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_341.csv";
+};
+object player {
+	name wd_645_wd_5br_69;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_69.csv";
+};
+object player {
+	name wd_645_wd_5br_287;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_287.csv";
+};
+object player {
+	name wd_645_wd_2br_175;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_175.csv";
+};
+object player {
+	name wd_645_wd_5br_237;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_237.csv";
+};
+object player {
+	name wd_645_wd_3br_281;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_281.csv";
+};
+object player {
+	name wd_645_wd_4br_196;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_196.csv";
+};
+object player {
+	name wd_645_wd_1br_120;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_120.csv";
+};
+object player {
+	name wd_645_wd_5br_220;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_220.csv";
+};
+object player {
+	name wd_645_wd_5br_93;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_93.csv";
+};
+object player {
+	name wd_645_wd_5br_127;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_127.csv";
+};
+object player {
+	name wd_645_wd_1br_321;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_321.csv";
+};
+object player {
+	name wd_645_wd_2br_62;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_62.csv";
+};
+object player {
+	name wd_645_wd_1br_117;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_117.csv";
+};
+object player {
+	name wd_645_wd_2br_249;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_249.csv";
+};
+object player {
+	name wd_645_wd_1br_199;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_199.csv";
+};
+object player {
+	name wd_645_wd_2br_198;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_198.csv";
+};
+object player {
+	name wd_645_wd_5br_142;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_142.csv";
+};
+object player {
+	name wd_645_wd_4br_118;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_118.csv";
+};
+object player {
+	name wd_645_wd_2br_298;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_298.csv";
+};
+object player {
+	name wd_645_wd_3br_198;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_198.csv";
+};
+object player {
+	name wd_645_wd_5br_11;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_11.csv";
+};
+object player {
+	name wd_645_wd_1br_315;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_315.csv";
+};
+object player {
+	name wd_645_wd_2br_145;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_145.csv";
+};
+object player {
+	name wd_645_wd_5br_32;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_32.csv";
+};
+object player {
+	name wd_645_wd_2br_132;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_132.csv";
+};
+object player {
+	name wd_645_wd_4br_4;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_4.csv";
+};
+object player {
+	name wd_645_wd_1br_227;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_227.csv";
+};
+object player {
+	name wd_645_wd_1br_310;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_310.csv";
+};
+object player {
+	name wd_645_wd_4br_237;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_237.csv";
+};
+object player {
+	name wd_645_wd_1br_121;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_121.csv";
+};
+object player {
+	name wd_645_wd_3br_95;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_95.csv";
+};
+object player {
+	name wd_645_wd_1br_300;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_300.csv";
+};
+object player {
+	name wd_645_wd_2br_239;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_239.csv";
+};
+object player {
+	name wd_645_wd_5br_68;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_68.csv";
+};
+object player {
+	name wd_645_wd_2br_127;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_127.csv";
+};
+object player {
+	name wd_645_wd_5br_254;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_254.csv";
+};
+object player {
+	name wd_645_wd_3br_333;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_333.csv";
+};
+object player {
+	name wd_645_wd_1br_334;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_334.csv";
+};
+object player {
+	name wd_645_wd_3br_84;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_84.csv";
+};
+object player {
+	name wd_645_wd_2br_59;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_59.csv";
+};
+object player {
+	name wd_645_wd_3br_321;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_321.csv";
+};
+object player {
+	name wd_645_wd_1br_71;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_71.csv";
+};
+object player {
+	name wd_645_wd_2br_158;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_158.csv";
+};
+object player {
+	name wd_645_wd_5br_236;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_236.csv";
+};
+object player {
+	name wd_645_wd_5br_54;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_54.csv";
+};
+object player {
+	name wd_645_wd_5br_271;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_271.csv";
+};
+object player {
+	name wd_645_wd_1br_33;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_33.csv";
+};
+object player {
+	name wd_645_wd_5br_148;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_148.csv";
+};
+object player {
+	name wd_645_wd_4br_277;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_277.csv";
+};
+object player {
+	name wd_645_wd_1br_323;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_323.csv";
+};
+object player {
+	name wd_645_wd_4br_348;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_348.csv";
+};
+object player {
+	name wd_645_wd_1br_319;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_319.csv";
+};
+object player {
+	name wd_645_wd_1br_49;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_49.csv";
+};
+object player {
+	name wd_645_wd_2br_66;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_66.csv";
+};
+object player {
+	name wd_645_wd_1br_111;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_111.csv";
+};
+object player {
+	name wd_645_wd_3br_280;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_280.csv";
+};
+object player {
+	name wd_645_wd_4br_226;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_226.csv";
+};
+object player {
+	name wd_645_wd_1br_245;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_245.csv";
+};
+object player {
+	name wd_645_wd_3br_338;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_338.csv";
+};
+object player {
+	name wd_645_wd_2br_151;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_151.csv";
+};
+object player {
+	name wd_645_wd_4br_135;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_135.csv";
+};
+object player {
+	name wd_645_wd_4br_264;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_264.csv";
+};
+object player {
+	name wd_645_wd_2br_278;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_278.csv";
+};
+object player {
+	name wd_633_wd_4br_341;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_341.csv";
+};
+object player {
+	name wd_633_wd_2br_266;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_266.csv";
+};
+object player {
+	name wd_633_wd_1br_93;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_93.csv";
+};
+object player {
+	name wd_633_wd_1br_54;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_54.csv";
+};
+object player {
+	name wd_633_wd_1br_168;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_168.csv";
+};
+object player {
+	name wd_633_wd_4br_270;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_270.csv";
+};
+object player {
+	name wd_633_wd_1br_177;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_177.csv";
+};
+object player {
+	name wd_633_wd_3br_127;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_127.csv";
+};
+object player {
+	name wd_633_wd_4br_78;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_78.csv";
+};
+object player {
+	name wd_633_wd_3br_220;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_220.csv";
+};
+object player {
+	name wd_633_wd_1br_191;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_191.csv";
+};
+object player {
+	name wd_633_wd_1br_186;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_186.csv";
+};
+object player {
+	name wd_633_wd_2br_77;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_77.csv";
+};
+object player {
+	name wd_633_wd_2br_307;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_307.csv";
+};
+object player {
+	name wd_633_wd_4br_70;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_70.csv";
+};
+object player {
+	name wd_633_wd_3br_208;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_208.csv";
+};
+object player {
+	name wd_633_wd_2br_346;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_346.csv";
+};
+object player {
+	name wd_633_wd_4br_62;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_62.csv";
+};
+object player {
+	name wd_633_wd_5br_102;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_102.csv";
+};
+object player {
+	name wd_633_wd_2br_58;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_58.csv";
+};
+object player {
+	name wd_633_wd_1br_45;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_45.csv";
+};
+object player {
+	name wd_633_wd_5br_71;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_71.csv";
+};
+object player {
+	name wd_633_wd_2br_73;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_73.csv";
+};
+object player {
+	name wd_633_wd_4br_199;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_199.csv";
+};
+object player {
+	name wd_633_wd_5br_196;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_196.csv";
+};
+object player {
+	name wd_633_wd_1br_180;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_180.csv";
+};
+object player {
+	name wd_633_wd_3br_7;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_7.csv";
+};
+object player {
+	name wd_633_wd_1br_160;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_160.csv";
+};
+object player {
+	name wd_633_wd_2br_134;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_134.csv";
+};
+object player {
+	name wd_633_wd_2br_220;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_220.csv";
+};
+object player {
+	name wd_633_wd_5br_212;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_212.csv";
+};
+object player {
+	name wd_633_wd_3br_313;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_313.csv";
+};
+object player {
+	name wd_633_wd_1br_246;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_246.csv";
+};
+object player {
+	name wd_633_wd_3br_43;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_43.csv";
+};
+object player {
+	name wd_633_wd_5br_349;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_349.csv";
+};
+object player {
+	name wd_633_wd_3br_230;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_230.csv";
+};
+object player {
+	name wd_633_wd_2br_45;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_45.csv";
+};
+object player {
+	name wd_633_wd_4br_126;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_126.csv";
+};
+object player {
+	name wd_633_wd_2br_195;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_195.csv";
+};
+object player {
+	name wd_633_wd_1br_148;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_148.csv";
+};
+object player {
+	name wd_633_wd_1br_101;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_101.csv";
+};
+object player {
+	name wd_633_wd_2br_40;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_40.csv";
+};
+object player {
+	name wd_633_wd_5br_121;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_121.csv";
+};
+object player {
+	name wd_633_wd_2br_64;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_64.csv";
+};
+object player {
+	name wd_633_wd_3br_10;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_10.csv";
+};
+object player {
+	name wd_633_wd_2br_67;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_67.csv";
+};
+object player {
+	name wd_633_wd_1br_72;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_72.csv";
+};
+object player {
+	name wd_633_wd_2br_102;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_102.csv";
+};
+object player {
+	name wd_633_wd_3br_99;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_99.csv";
+};
+object player {
+	name wd_633_wd_3br_145;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_145.csv";
+};
+object player {
+	name wd_633_wd_5br_176;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_176.csv";
+};
+object player {
+	name wd_633_wd_5br_337;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_337.csv";
+};
+object player {
+	name wd_633_wd_3br_94;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_94.csv";
+};
+object player {
+	name wd_633_wd_1br_332;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_332.csv";
+};
+object player {
+	name wd_633_wd_1br_89;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_89.csv";
+};
+object player {
+	name wd_633_wd_1br_189;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_189.csv";
+};
+object player {
+	name wd_633_wd_5br_253;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_253.csv";
+};
+object player {
+	name wd_633_wd_4br_204;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_204.csv";
+};
+object player {
+	name wd_633_wd_3br_240;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_240.csv";
+};
+object player {
+	name wd_633_wd_2br_136;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_136.csv";
+};
+object player {
+	name wd_633_wd_3br_215;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_215.csv";
+};
+object player {
+	name wd_633_wd_1br_267;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_267.csv";
+};
+object player {
+	name wd_633_wd_3br_49;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_49.csv";
+};
+object player {
+	name wd_633_wd_3br_219;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_219.csv";
+};
+object player {
+	name wd_633_wd_3br_50;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_50.csv";
+};
+object player {
+	name wd_633_wd_2br_340;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_340.csv";
+};
+object player {
+	name wd_633_wd_1br_305;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_305.csv";
+};
+object player {
+	name wd_633_wd_1br_15;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_15.csv";
+};
+object player {
+	name wd_633_wd_3br_189;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_189.csv";
+};
+object player {
+	name wd_633_wd_5br_5;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_5.csv";
+};
+object player {
+	name wd_633_wd_3br_348;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_348.csv";
+};
+object player {
+	name wd_633_wd_4br_203;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_203.csv";
+};
+object player {
+	name wd_633_wd_5br_216;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_216.csv";
+};
+object player {
+	name wd_633_wd_2br_60;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_60.csv";
+};
+object player {
+	name wd_633_wd_3br_23;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_23.csv";
+};
+object player {
+	name wd_633_wd_5br_28;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_28.csv";
+};
+object player {
+	name wd_633_wd_3br_287;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_287.csv";
+};
+object player {
+	name wd_633_wd_3br_298;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_298.csv";
+};
+object player {
+	name wd_633_wd_3br_224;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_224.csv";
+};
+object player {
+	name wd_633_wd_3br_314;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_314.csv";
+};
+object player {
+	name wd_633_wd_2br_250;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_250.csv";
+};
+object player {
+	name wd_633_wd_3br_206;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_206.csv";
+};
+object player {
+	name wd_633_wd_5br_36;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_36.csv";
+};
+object player {
+	name wd_633_wd_1br_286;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_286.csv";
+};
+object player {
+	name wd_633_wd_5br_107;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_107.csv";
+};
+object player {
+	name wd_633_wd_2br_207;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_207.csv";
+};
+object player {
+	name wd_633_wd_5br_336;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_336.csv";
+};
+object player {
+	name wd_633_wd_5br_45;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_45.csv";
+};
+object player {
+	name wd_633_wd_1br_14;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_14.csv";
+};
+object player {
+	name wd_633_wd_2br_218;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_218.csv";
+};
+object player {
+	name wd_633_wd_3br_79;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_79.csv";
+};
+object player {
+	name wd_633_wd_1br_103;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_103.csv";
+};
+object player {
+	name wd_633_wd_1br_241;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_241.csv";
+};
+object player {
+	name wd_633_wd_4br_266;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_266.csv";
+};
+object player {
+	name wd_633_wd_4br_139;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_139.csv";
+};
+object player {
+	name wd_633_wd_4br_89;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_89.csv";
+};
+object player {
+	name wd_633_wd_3br_6;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_6.csv";
+};
+object player {
+	name wd_633_wd_5br_72;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_72.csv";
+};
+object player {
+	name wd_633_wd_4br_38;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_38.csv";
+};
+object player {
+	name wd_633_wd_2br_103;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_103.csv";
+};
+object player {
+	name wd_633_wd_1br_60;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_60.csv";
+};
+object player {
+	name wd_633_wd_3br_216;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_216.csv";
+};
+object player {
+	name wd_633_wd_4br_25;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_25.csv";
+};
+object player {
+	name wd_633_wd_1br_68;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_68.csv";
+};
+object player {
+	name wd_633_wd_3br_282;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_282.csv";
+};
+object player {
+	name wd_633_wd_4br_159;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_159.csv";
+};
+object player {
+	name wd_633_wd_1br_259;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_259.csv";
+};
+object player {
+	name wd_633_wd_5br_27;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_27.csv";
+};
+object player {
+	name wd_633_wd_1br_238;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_238.csv";
+};
+object player {
+	name wd_633_wd_5br_159;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_159.csv";
+};
+object player {
+	name wd_633_wd_4br_81;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_81.csv";
+};
+object player {
+	name wd_633_wd_2br_29;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_29.csv";
+};
+object player {
+	name wd_633_wd_1br_17;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_17.csv";
+};
+object player {
+	name wd_633_wd_2br_157;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_157.csv";
+};
+object player {
+	name wd_633_wd_5br_306;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_306.csv";
+};
+object player {
+	name wd_633_wd_2br_203;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_203.csv";
+};
+object player {
+	name wd_633_wd_5br_229;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_229.csv";
+};
+object player {
+	name wd_633_wd_3br_53;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_53.csv";
+};
+object player {
+	name wd_633_wd_1br_149;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_149.csv";
+};
+object player {
+	name wd_633_wd_1br_65;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_65.csv";
+};
+object player {
+	name wd_632_wd_3br_46;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_46.csv";
+};
+object player {
+	name wd_632_wd_3br_305;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_305.csv";
+};
+object player {
+	name wd_632_wd_5br_39;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_39.csv";
+};
+object player {
+	name wd_632_wd_3br_5;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_5.csv";
+};
+object player {
+	name wd_632_wd_4br_19;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_19.csv";
+};
+object player {
+	name wd_632_wd_2br_299;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_299.csv";
+};
+object player {
+	name wd_632_wd_2br_205;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_205.csv";
+};
+object player {
+	name wd_632_wd_3br_248;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_248.csv";
+};
+object player {
+	name wd_632_wd_5br_181;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_181.csv";
+};
+object player {
+	name wd_632_wd_3br_111;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_111.csv";
+};
+object player {
+	name wd_632_wd_1br_92;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_92.csv";
+};
+object player {
+	name wd_632_wd_5br_50;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_50.csv";
+};
+object player {
+	name wd_632_wd_5br_42;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_42.csv";
+};
+object player {
+	name wd_632_wd_5br_109;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_109.csv";
+};
+object player {
+	name wd_632_wd_3br_154;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_154.csv";
+};
+object player {
+	name wd_632_wd_5br_83;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_83.csv";
+};
+object player {
+	name wd_632_wd_5br_51;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_51.csv";
+};
+object player {
+	name wd_632_wd_4br_165;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_165.csv";
+};
+object player {
+	name wd_632_wd_4br_113;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_113.csv";
+};
+object player {
+	name wd_632_wd_3br_119;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_119.csv";
+};
+object player {
+	name wd_632_wd_3br_349;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_349.csv";
+};
+object player {
+	name wd_632_wd_2br_100;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_100.csv";
+};
+object player {
+	name wd_632_wd_1br_253;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_253.csv";
+};
+object player {
+	name wd_632_wd_1br_172;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_172.csv";
+};
+object player {
+	name wd_632_wd_4br_46;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_46.csv";
+};
+object player {
+	name wd_632_wd_2br_285;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_285.csv";
+};
+object player {
+	name wd_632_wd_5br_63;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_63.csv";
+};
+object player {
+	name wd_632_wd_3br_301;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_301.csv";
+};
+object player {
+	name wd_632_wd_4br_3;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_3.csv";
+};
+object player {
+	name wd_632_wd_3br_57;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_57.csv";
+};
+object player {
+	name wd_632_wd_2br_288;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_288.csv";
+};
+object player {
+	name wd_632_wd_4br_325;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_325.csv";
+};
+object player {
+	name wd_632_wd_4br_117;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_117.csv";
+};
+object player {
+	name wd_632_wd_1br_293;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_293.csv";
+};
+object player {
+	name wd_632_wd_2br_124;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_124.csv";
+};
+object player {
+	name wd_632_wd_5br_247;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_247.csv";
+};
+object player {
+	name wd_632_wd_5br_17;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_17.csv";
+};
+object player {
+	name wd_632_wd_4br_166;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_166.csv";
+};
+object player {
+	name wd_632_wd_5br_94;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_94.csv";
+};
+object player {
+	name wd_632_wd_5br_238;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_238.csv";
+};
+object player {
+	name wd_632_wd_2br_309;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_309.csv";
+};
+object player {
+	name wd_632_wd_2br_280;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_280.csv";
+};
+object player {
+	name wd_632_wd_1br_18;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_18.csv";
+};
+object player {
+	name wd_632_wd_2br_18;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_18.csv";
+};
+object player {
+	name wd_632_wd_1br_317;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_317.csv";
+};
+object player {
+	name wd_632_wd_2br_133;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_133.csv";
+};
+object player {
+	name wd_632_wd_2br_37;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_37.csv";
+};
+object player {
+	name wd_632_wd_2br_193;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_193.csv";
+};
+object player {
+	name wd_632_wd_2br_335;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_335.csv";
+};
+object player {
+	name wd_632_wd_5br_232;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_232.csv";
+};
+object player {
+	name wd_632_wd_2br_287;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_287.csv";
+};
+object player {
+	name wd_632_wd_5br_125;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_125.csv";
+};
+object player {
+	name wd_632_wd_3br_334;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_334.csv";
+};
+object player {
+	name wd_632_wd_1br_294;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_294.csv";
+};
+object player {
+	name wd_632_wd_4br_141;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_141.csv";
+};
+object player {
+	name wd_632_wd_3br_52;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_52.csv";
+};
+object player {
+	name wd_632_wd_3br_184;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_184.csv";
+};
+object player {
+	name wd_632_wd_2br_26;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_26.csv";
+};
+object player {
+	name wd_632_wd_4br_286;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_286.csv";
+};
+object player {
+	name wd_632_wd_1br_324;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_324.csv";
+};
+object player {
+	name wd_632_wd_1br_203;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_203.csv";
+};
+object player {
+	name wd_632_wd_3br_289;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_289.csv";
+};
+object player {
+	name wd_632_wd_2br_181;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_181.csv";
+};
+object player {
+	name wd_632_wd_3br_226;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_226.csv";
+};
+object player {
+	name wd_632_wd_3br_126;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_126.csv";
+};
+object player {
+	name wd_632_wd_1br_258;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_258.csv";
+};
+object player {
+	name wd_632_wd_1br_256;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_256.csv";
+};
+object player {
+	name wd_632_wd_3br_34;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_34.csv";
+};
+object player {
+	name wd_632_wd_5br_198;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_198.csv";
+};
+object player {
+	name wd_632_wd_1br_190;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_190.csv";
+};
+object player {
+	name wd_632_wd_4br_198;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_198.csv";
+};
+object player {
+	name wd_632_wd_5br_257;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_257.csv";
+};
+object player {
+	name wd_632_wd_5br_347;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_347.csv";
+};
+object player {
+	name wd_632_wd_5br_62;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_62.csv";
+};
+object player {
+	name wd_632_wd_1br_84;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_84.csv";
+};
+object player {
+	name wd_632_wd_3br_323;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_323.csv";
+};
+object player {
+	name wd_632_wd_1br_257;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_257.csv";
+};
+object player {
+	name wd_632_wd_3br_317;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_317.csv";
+};
+object player {
+	name wd_632_wd_1br_67;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_67.csv";
+};
+object player {
+	name wd_632_wd_4br_170;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_170.csv";
+};
+object player {
+	name wd_632_wd_4br_183;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_183.csv";
+};
+object player {
+	name wd_632_wd_4br_96;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_96.csv";
+};
+object player {
+	name wd_632_wd_2br_128;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_128.csv";
+};
+object player {
+	name wd_632_wd_4br_87;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_87.csv";
+};
+object player {
+	name wd_632_wd_2br_231;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_231.csv";
+};
+object player {
+	name wd_632_wd_4br_192;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_192.csv";
+};
+object player {
+	name wd_632_wd_4br_16;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_16.csv";
+};
+object player {
+	name wd_632_wd_1br_298;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_298.csv";
+};
+object player {
+	name wd_632_wd_4br_67;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_67.csv";
+};
+object player {
+	name wd_632_wd_2br_284;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_284.csv";
+};
+object player {
+	name wd_632_wd_2br_23;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_23.csv";
+};
+object player {
+	name wd_632_wd_5br_234;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_234.csv";
+};
+object player {
+	name wd_632_wd_5br_116;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_116.csv";
+};
+object player {
+	name wd_632_wd_3br_142;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_142.csv";
+};
+object player {
+	name wd_632_wd_4br_176;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_176.csv";
+};
+object player {
+	name wd_632_wd_5br_137;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_137.csv";
+};
+object player {
+	name wd_632_wd_4br_154;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_154.csv";
+};
+object player {
+	name wd_632_wd_3br_265;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_265.csv";
+};
+object player {
+	name wd_632_wd_5br_301;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_301.csv";
+};
+object player {
+	name wd_632_wd_4br_216;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_216.csv";
+};
+object player {
+	name wd_632_wd_4br_157;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_157.csv";
+};
+object player {
+	name wd_632_wd_5br_120;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_120.csv";
+};
+object player {
+	name wd_632_wd_5br_288;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_288.csv";
+};
+object player {
+	name wd_632_wd_5br_309;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_309.csv";
+};
+object player {
+	name wd_632_wd_3br_318;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_318.csv";
+};
+object player {
+	name wd_632_wd_4br_197;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_197.csv";
+};
+object player {
+	name wd_632_wd_3br_105;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_105.csv";
+};
+object player {
+	name wd_632_wd_4br_32;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_32.csv";
+};
+object player {
+	name wd_632_wd_3br_316;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_316.csv";
+};
+object player {
+	name wd_632_wd_3br_161;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_161.csv";
+};
+object player {
+	name wd_632_wd_5br_162;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_162.csv";
+};
+object player {
+	name wd_632_wd_5br_178;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_178.csv";
+};
+object player {
+	name wd_632_wd_4br_302;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_302.csv";
+};
+object player {
+	name wd_632_wd_4br_112;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_112.csv";
+};
+object player {
+	name wd_632_wd_1br_306;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_306.csv";
+};
+object player {
+	name wd_632_wd_4br_151;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_151.csv";
+};
+object player {
+	name wd_632_wd_3br_225;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_225.csv";
+};
+object player {
+	name wd_632_wd_5br_262;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_262.csv";
+};
+object player {
+	name wd_632_wd_2br_349;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_349.csv";
+};
+object player {
+	name wd_632_wd_3br_160;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_160.csv";
+};
+object player {
+	name wd_692_wd_5br_7;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_7.csv";
+};
+object player {
+	name wd_692_wd_3br_299;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_299.csv";
+};
+object player {
+	name wd_692_wd_2br_275;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_275.csv";
+};
+object player {
+	name wd_692_wd_3br_90;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_90.csv";
+};
+object player {
+	name wd_692_wd_3br_273;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_273.csv";
+};
+object player {
+	name wd_692_wd_2br_267;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_267.csv";
+};
+object player {
+	name wd_692_wd_5br_108;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_108.csv";
+};
+object player {
+	name wd_692_wd_2br_171;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_171.csv";
+};
+object player {
+	name wd_692_wd_3br_9;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_9.csv";
+};
+object player {
+	name wd_692_wd_1br_158;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_158.csv";
+};
+object player {
+	name wd_692_wd_3br_30;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_30.csv";
+};
+object player {
+	name wd_692_wd_4br_47;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_47.csv";
+};
+object player {
+	name wd_692_wd_4br_187;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_187.csv";
+};
+object player {
+	name wd_692_wd_2br_96;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_96.csv";
+};
+object player {
+	name wd_692_wd_4br_247;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_247.csv";
+};
+object player {
+	name wd_692_wd_2br_224;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_224.csv";
+};
+object player {
+	name wd_692_wd_3br_202;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_202.csv";
+};
+object player {
+	name wd_692_wd_5br_277;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_277.csv";
+};
+object player {
+	name wd_692_wd_5br_67;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_67.csv";
+};
+object player {
+	name wd_692_wd_3br_263;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_263.csv";
+};
+object player {
+	name wd_692_wd_1br_144;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_144.csv";
+};
+object player {
+	name wd_692_wd_4br_71;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_71.csv";
+};
+object player {
+	name wd_692_wd_5br_60;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_60.csv";
+};
+object player {
+	name wd_692_wd_2br_184;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_184.csv";
+};
+object player {
+	name wd_692_wd_5br_24;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_24.csv";
+};
+object player {
+	name wd_692_wd_5br_219;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_219.csv";
+};
+object player {
+	name wd_692_wd_2br_159;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_159.csv";
+};
+object player {
+	name wd_692_wd_4br_285;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_285.csv";
+};
+object player {
+	name wd_692_wd_2br_350;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_350.csv";
+};
+object player {
+	name wd_692_wd_1br_311;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_311.csv";
+};
+object player {
+	name wd_692_wd_3br_109;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_109.csv";
+};
+object player {
+	name wd_692_wd_1br_252;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_252.csv";
+};
+object player {
+	name wd_692_wd_5br_263;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_263.csv";
+};
+object player {
+	name wd_692_wd_4br_344;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_344.csv";
+};
+object player {
+	name wd_692_wd_1br_210;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_210.csv";
+};
+object player {
+	name wd_692_wd_4br_142;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_142.csv";
+};
+object player {
+	name wd_692_wd_2br_253;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_253.csv";
+};
+object player {
+	name wd_692_wd_4br_49;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_49.csv";
+};
+object player {
+	name wd_692_wd_3br_67;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_67.csv";
+};
+object player {
+	name wd_692_wd_2br_14;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_14.csv";
+};
+object player {
+	name wd_692_wd_2br_252;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_252.csv";
+};
+object player {
+	name wd_692_wd_5br_286;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_286.csv";
+};
+object player {
+	name wd_692_wd_1br_78;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_78.csv";
+};
+object player {
+	name wd_692_wd_5br_343;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_343.csv";
+};
+object player {
+	name wd_692_wd_1br_62;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_62.csv";
+};
+object player {
+	name wd_692_wd_2br_190;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_190.csv";
+};
+object player {
+	name wd_692_wd_2br_28;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_28.csv";
+};
+object player {
+	name wd_692_wd_1br_44;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_44.csv";
+};
+object player {
+	name wd_692_wd_2br_6;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_6.csv";
+};
+object player {
+	name wd_692_wd_1br_40;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_40.csv";
+};
+object player {
+	name wd_692_wd_1br_113;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_113.csv";
+};
+object player {
+	name wd_692_wd_1br_235;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_235.csv";
+};
+object player {
+	name wd_692_wd_4br_107;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_107.csv";
+};
+object player {
+	name wd_692_wd_4br_321;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_321.csv";
+};
+object player {
+	name wd_692_wd_5br_22;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_22.csv";
+};
+object player {
+	name wd_692_wd_3br_159;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_159.csv";
+};
+object player {
+	name wd_692_wd_4br_91;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_91.csv";
+};
+object player {
+	name wd_692_wd_5br_202;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_202.csv";
+};
+object player {
+	name wd_692_wd_3br_80;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_80.csv";
+};
+object player {
+	name wd_692_wd_1br_23;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_23.csv";
+};
+object player {
+	name wd_692_wd_2br_42;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_42.csv";
+};
+object player {
+	name wd_692_wd_3br_91;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_91.csv";
+};
+object player {
+	name wd_692_wd_1br_96;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_96.csv";
+};
+object player {
+	name wd_692_wd_4br_122;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_122.csv";
+};
+object player {
+	name wd_692_wd_3br_284;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_284.csv";
+};
+object player {
+	name wd_692_wd_3br_178;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_178.csv";
+};
+object player {
+	name wd_692_wd_4br_18;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_18.csv";
+};
+object player {
+	name wd_692_wd_5br_341;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_341.csv";
+};
+object player {
+	name wd_692_wd_4br_120;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_120.csv";
+};
+object player {
+	name wd_692_wd_1br_347;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_347.csv";
+};
+object player {
+	name wd_692_wd_3br_214;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_214.csv";
+};
+object player {
+	name wd_692_wd_4br_138;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_138.csv";
+};
+object player {
+	name wd_692_wd_1br_142;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_142.csv";
+};
+object player {
+	name wd_692_wd_3br_180;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_180.csv";
+};
+object player {
+	name wd_692_wd_5br_333;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_333.csv";
+};
+object player {
+	name wd_692_wd_3br_36;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_36.csv";
+};
+object player {
+	name wd_692_wd_5br_213;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_213.csv";
+};
+object player {
+	name wd_692_wd_1br_279;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_279.csv";
+};
+object player {
+	name wd_692_wd_4br_312;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_312.csv";
+};
+object player {
+	name wd_692_wd_3br_335;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_335.csv";
+};
+object player {
+	name wd_692_wd_1br_307;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_307.csv";
+};
+object player {
+	name wd_692_wd_4br_42;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_42.csv";
+};
+object player {
+	name wd_692_wd_3br_35;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_35.csv";
+};
+object player {
+	name wd_692_wd_4br_334;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_334.csv";
+};
+object player {
+	name wd_692_wd_4br_76;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_76.csv";
+};
+object player {
+	name wd_692_wd_3br_262;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_262.csv";
+};
+object player {
+	name wd_692_wd_4br_8;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_8.csv";
+};
+object player {
+	name wd_692_wd_5br_317;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_317.csv";
+};
+object player {
+	name wd_692_wd_5br_131;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_131.csv";
+};
+object player {
+	name wd_692_wd_1br_188;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_188.csv";
+};
+object player {
+	name wd_692_wd_3br_39;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_39.csv";
+};
+object player {
+	name wd_692_wd_5br_74;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_74.csv";
+};
+object player {
+	name wd_692_wd_2br_194;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_194.csv";
+};
+object player {
+	name wd_692_wd_1br_326;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_326.csv";
+};
+object player {
+	name wd_692_wd_3br_319;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_319.csv";
+};
+object player {
+	name wd_692_wd_5br_329;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_329.csv";
+};
+object player {
+	name wd_692_wd_3br_340;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_340.csv";
+};
+object player {
+	name wd_692_wd_1br_335;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_335.csv";
+};
+object player {
+	name wd_692_wd_4br_50;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_50.csv";
+};
+object player {
+	name wd_692_wd_4br_181;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_181.csv";
+};
+object player {
+	name wd_692_wd_1br_328;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_328.csv";
+};
+object player {
+	name wd_692_wd_1br_155;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_155.csv";
+};
+object player {
+	name wd_692_wd_5br_197;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_197.csv";
+};
+object player {
+	name wd_692_wd_1br_141;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_141.csv";
+};
+object player {
+	name wd_692_wd_5br_9;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_9.csv";
+};
+object player {
+	name wd_692_wd_1br_6;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_6.csv";
+};
+object player {
+	name wd_692_wd_3br_32;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_32.csv";
+};
+object player {
+	name wd_692_wd_5br_211;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_211.csv";
+};
+object player {
+	name wd_692_wd_3br_156;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_156.csv";
+};
+object player {
+	name wd_692_wd_1br_289;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_289.csv";
+};
+object player {
+	name wd_692_wd_2br_337;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_337.csv";
+};
+object player {
+	name wd_692_wd_4br_34;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_34.csv";
+};
+object player {
+	name wd_692_wd_5br_325;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_325.csv";
+};
+object player {
+	name wd_692_wd_5br_47;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_47.csv";
+};
+object player {
+	name wd_692_wd_4br_2;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_2.csv";
+};
+object player {
+	name wd_692_wd_5br_150;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_150.csv";
+};
+object player {
+	name wd_692_wd_1br_90;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_90.csv";
+};
+object player {
+	name wd_692_wd_1br_330;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_330.csv";
+};
+object player {
+	name wd_692_wd_4br_101;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_101.csv";
+};
+object player {
+	name wd_692_wd_2br_121;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_121.csv";
+};
+object player {
+	name wd_675_wd_4br_69;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_69.csv";
+};
+object player {
+	name wd_675_wd_4br_152;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_152.csv";
+};
+object player {
+	name wd_675_wd_1br_74;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_74.csv";
+};
+object player {
+	name wd_675_wd_3br_31;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_31.csv";
+};
+object player {
+	name wd_675_wd_4br_169;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_169.csv";
+};
+object player {
+	name wd_675_wd_4br_177;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_177.csv";
+};
+object player {
+	name wd_675_wd_1br_206;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_206.csv";
+};
+object player {
+	name wd_675_wd_4br_39;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_39.csv";
+};
+object player {
+	name wd_675_wd_4br_79;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_79.csv";
+};
+object player {
+	name wd_675_wd_4br_339;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_339.csv";
+};
+object player {
+	name wd_675_wd_5br_18;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_18.csv";
+};
+object player {
+	name wd_675_wd_2br_210;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_210.csv";
+};
+object player {
+	name wd_675_wd_4br_29;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_29.csv";
+};
+object player {
+	name wd_675_wd_4br_340;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_340.csv";
+};
+object player {
+	name wd_675_wd_5br_117;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_117.csv";
+};
+object player {
+	name wd_675_wd_2br_276;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_276.csv";
+};
+object player {
+	name wd_675_wd_3br_210;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_210.csv";
+};
+object player {
+	name wd_675_wd_2br_139;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_139.csv";
+};
+object player {
+	name wd_675_wd_1br_221;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_221.csv";
+};
+object player {
+	name wd_675_wd_5br_291;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_291.csv";
+};
+object player {
+	name wd_675_wd_2br_56;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_56.csv";
+};
+object player {
+	name wd_675_wd_5br_251;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_251.csv";
+};
+object player {
+	name wd_675_wd_4br_43;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_43.csv";
+};
+object player {
+	name wd_675_wd_3br_128;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_128.csv";
+};
+object player {
+	name wd_675_wd_4br_322;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_322.csv";
+};
+object player {
+	name wd_675_wd_2br_71;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_71.csv";
+};
+object player {
+	name wd_675_wd_1br_119;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_119.csv";
+};
+object player {
+	name wd_675_wd_3br_55;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_55.csv";
+};
+object player {
+	name wd_675_wd_3br_147;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_147.csv";
+};
+object player {
+	name wd_675_wd_5br_106;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_106.csv";
+};
+object player {
+	name wd_675_wd_2br_270;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_270.csv";
+};
+object player {
+	name wd_675_wd_3br_113;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_113.csv";
+};
+object player {
+	name wd_675_wd_1br_230;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_230.csv";
+};
+object player {
+	name wd_675_wd_3br_269;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_269.csv";
+};
+object player {
+	name wd_675_wd_2br_258;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_258.csv";
+};
+object player {
+	name wd_675_wd_3br_93;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_93.csv";
+};
+object player {
+	name wd_675_wd_3br_118;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_118.csv";
+};
+object player {
+	name wd_675_wd_3br_183;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_183.csv";
+};
+object player {
+	name wd_675_wd_3br_190;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_190.csv";
+};
+object player {
+	name wd_675_wd_2br_142;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_142.csv";
+};
+object player {
+	name wd_675_wd_2br_191;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_191.csv";
+};
+object player {
+	name wd_675_wd_1br_69;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_69.csv";
+};
+object player {
+	name wd_675_wd_1br_29;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_29.csv";
+};
+object player {
+	name wd_675_wd_2br_5;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_5.csv";
+};
+object player {
+	name wd_675_wd_1br_91;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_91.csv";
+};
+object player {
+	name wd_675_wd_5br_264;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_264.csv";
+};
+object player {
+	name wd_675_wd_4br_303;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_303.csv";
+};
+object player {
+	name wd_675_wd_4br_259;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_259.csv";
+};
+object player {
+	name wd_675_wd_4br_324;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_324.csv";
+};
+object player {
+	name wd_675_wd_1br_8;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_8.csv";
+};
+object player {
+	name wd_675_wd_2br_283;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_283.csv";
+};
+object player {
+	name wd_675_wd_2br_163;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_163.csv";
+};
+object player {
+	name wd_675_wd_5br_183;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_183.csv";
+};
+object player {
+	name wd_675_wd_3br_116;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_116.csv";
+};
+object player {
+	name wd_675_wd_3br_64;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_64.csv";
+};
+object player {
+	name wd_675_wd_2br_135;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_135.csv";
+};
+object player {
+	name wd_675_wd_5br_300;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_300.csv";
+};
+object player {
+	name wd_675_wd_3br_4;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_4.csv";
+};
+object player {
+	name wd_675_wd_3br_239;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_239.csv";
+};
+object player {
+	name wd_675_wd_4br_97;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_97.csv";
+};
+object player {
+	name wd_675_wd_2br_81;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_81.csv";
+};
+object player {
+	name wd_675_wd_5br_57;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_57.csv";
+};
+object player {
+	name wd_675_wd_3br_129;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_129.csv";
+};
+object player {
+	name wd_675_wd_1br_51;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_51.csv";
+};
+object player {
+	name wd_675_wd_5br_99;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_99.csv";
+};
+object player {
+	name wd_675_wd_1br_204;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_204.csv";
+};
+object player {
+	name wd_675_wd_4br_332;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_332.csv";
+};
+object player {
+	name wd_675_wd_3br_253;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_253.csv";
+};
+object player {
+	name wd_675_wd_3br_285;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_285.csv";
+};
+object player {
+	name wd_675_wd_3br_296;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_296.csv";
+};
+object player {
+	name wd_675_wd_4br_45;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_45.csv";
+};
+object player {
+	name wd_675_wd_4br_261;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_261.csv";
+};
+object player {
+	name wd_675_wd_2br_178;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_178.csv";
+};
+object player {
+	name wd_675_wd_2br_161;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_161.csv";
+};
+object player {
+	name wd_675_wd_2br_229;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_229.csv";
+};
+object player {
+	name wd_675_wd_1br_159;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_159.csv";
+};
+object player {
+	name wd_675_wd_2br_232;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_232.csv";
+};
+object player {
+	name wd_675_wd_2br_230;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_230.csv";
+};
+object player {
+	name wd_675_wd_5br_76;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_76.csv";
+};
+object player {
+	name wd_675_wd_4br_172;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_172.csv";
+};
+object player {
+	name wd_675_wd_3br_256;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_256.csv";
+};
+object player {
+	name wd_675_wd_5br_73;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_73.csv";
+};
+object player {
+	name wd_675_wd_5br_184;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_184.csv";
+};
+object player {
+	name wd_675_wd_2br_148;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_148.csv";
+};
+object player {
+	name wd_675_wd_1br_136;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_136.csv";
+};
+object player {
+	name wd_675_wd_2br_21;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_21.csv";
+};
+object player {
+	name wd_675_wd_4br_111;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_111.csv";
+};
+object player {
+	name wd_675_wd_3br_251;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_251.csv";
+};
+object player {
+	name wd_675_wd_4br_86;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_86.csv";
+};
+object player {
+	name wd_675_wd_1br_202;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_202.csv";
+};
+object player {
+	name wd_675_wd_2br_122;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_122.csv";
+};
+object player {
+	name wd_675_wd_3br_278;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_278.csv";
+};
+object player {
+	name wd_675_wd_3br_87;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_87.csv";
+};
+object player {
+	name wd_675_wd_3br_12;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_12.csv";
+};
+object player {
+	name wd_675_wd_5br_342;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_342.csv";
+};
+object player {
+	name wd_675_wd_5br_193;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_193.csv";
+};
+object player {
+	name wd_675_wd_1br_156;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_156.csv";
+};
+object player {
+	name wd_675_wd_3br_306;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_306.csv";
+};
+object player {
+	name wd_675_wd_1br_264;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_264.csv";
+};
+object player {
+	name wd_675_wd_4br_104;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_104.csv";
+};
+object player {
+	name wd_675_wd_4br_338;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_338.csv";
+};
+object player {
+	name wd_675_wd_5br_340;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_340.csv";
+};
+object player {
+	name wd_675_wd_2br_313;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_313.csv";
+};
+object player {
+	name wd_675_wd_4br_328;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_328.csv";
+};
+object player {
+	name wd_675_wd_4br_161;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_161.csv";
+};
+object player {
+	name wd_675_wd_3br_65;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_65.csv";
+};
+object player {
+	name wd_675_wd_3br_78;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_78.csv";
+};
+object player {
+	name wd_675_wd_1br_13;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_13.csv";
+};
+object player {
+	name wd_675_wd_1br_169;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_169.csv";
+};
+object player {
+	name wd_675_wd_2br_204;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_204.csv";
+};
+object player {
+	name wd_675_wd_3br_245;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_245.csv";
+};
+object player {
+	name wd_675_wd_3br_59;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_59.csv";
+};
+object player {
+	name wd_675_wd_3br_115;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_115.csv";
+};
+object player {
+	name wd_675_wd_2br_201;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_201.csv";
+};
+object player {
+	name wd_675_wd_5br_29;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_29.csv";
+};
+object player {
+	name wd_675_wd_5br_85;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_85.csv";
+};
+object player {
+	name wd_675_wd_1br_270;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_270.csv";
+};
+object player {
+	name wd_675_wd_2br_243;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_243.csv";
+};
+object player {
+	name wd_675_wd_2br_234;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_234.csv";
+};
+object player {
+	name wd_675_wd_2br_19;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_19.csv";
+};
+object player {
+	name wd_671_wd_4br_56;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_56.csv";
+};
+object player {
+	name wd_671_wd_2br_282;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_282.csv";
+};
+object player {
+	name wd_671_wd_2br_182;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_182.csv";
+};
+object player {
+	name wd_671_wd_2br_49;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_49.csv";
+};
+object player {
+	name wd_671_wd_5br_31;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_31.csv";
+};
+object player {
+	name wd_671_wd_5br_242;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_242.csv";
+};
+object player {
+	name wd_671_wd_2br_119;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_119.csv";
+};
+object player {
+	name wd_671_wd_1br_349;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_349.csv";
+};
+object player {
+	name wd_671_wd_4br_125;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_125.csv";
+};
+object player {
+	name wd_671_wd_3br_21;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_21.csv";
+};
+object player {
+	name wd_671_wd_4br_297;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_297.csv";
+};
+object player {
+	name wd_671_wd_3br_332;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_332.csv";
+};
+object player {
+	name wd_671_wd_3br_197;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_197.csv";
+};
+object player {
+	name wd_671_wd_4br_239;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_239.csv";
+};
+object player {
+	name wd_671_wd_3br_146;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_146.csv";
+};
+object player {
+	name wd_671_wd_3br_213;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_213.csv";
+};
+object player {
+	name wd_671_wd_2br_241;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_241.csv";
+};
+object player {
+	name wd_671_wd_5br_303;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_303.csv";
+};
+object player {
+	name wd_671_wd_3br_141;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_141.csv";
+};
+object player {
+	name wd_671_wd_2br_57;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_57.csv";
+};
+object player {
+	name wd_671_wd_1br_102;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_102.csv";
+};
+object player {
+	name wd_671_wd_5br_248;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_248.csv";
+};
+object player {
+	name wd_671_wd_5br_91;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_91.csv";
+};
+object player {
+	name wd_671_wd_3br_235;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_235.csv";
+};
+object player {
+	name wd_671_wd_5br_206;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_206.csv";
+};
+object player {
+	name wd_671_wd_4br_301;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_301.csv";
+};
+object player {
+	name wd_671_wd_5br_204;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_204.csv";
+};
+object player {
+	name wd_671_wd_4br_205;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_205.csv";
+};
+object player {
+	name wd_671_wd_3br_13;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_13.csv";
+};
+object player {
+	name wd_671_wd_1br_174;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_174.csv";
+};
+object player {
+	name wd_671_wd_1br_292;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_292.csv";
+};
+object player {
+	name wd_671_wd_1br_205;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_205.csv";
+};
+object player {
+	name wd_671_wd_4br_333;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_333.csv";
+};
+object player {
+	name wd_671_wd_2br_286;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_286.csv";
+};
+object player {
+	name wd_671_wd_5br_98;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_98.csv";
+};
+object player {
+	name wd_671_wd_4br_83;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_83.csv";
+};
+object player {
+	name wd_671_wd_2br_240;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_240.csv";
+};
+object player {
+	name wd_671_wd_1br_312;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_312.csv";
+};
+object player {
+	name wd_671_wd_3br_158;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_158.csv";
+};
+object player {
+	name wd_671_wd_3br_328;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_328.csv";
+};
+object player {
+	name wd_671_wd_2br_185;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_185.csv";
+};
+object player {
+	name wd_671_wd_2br_82;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_82.csv";
+};
+object player {
+	name wd_671_wd_1br_86;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_86.csv";
+};
+object player {
+	name wd_671_wd_3br_133;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_133.csv";
+};
+object player {
+	name wd_671_wd_5br_133;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_133.csv";
+};
+object player {
+	name wd_671_wd_2br_214;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_214.csv";
+};
+object player {
+	name wd_671_wd_3br_249;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_249.csv";
+};
+object player {
+	name wd_671_wd_5br_221;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_221.csv";
+};
+object player {
+	name wd_671_wd_2br_262;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_262.csv";
+};
+object player {
+	name wd_671_wd_1br_99;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_99.csv";
+};
+object player {
+	name wd_671_wd_4br_201;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_201.csv";
+};
+object player {
+	name wd_671_wd_2br_303;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_303.csv";
+};
+object player {
+	name wd_671_wd_3br_24;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_24.csv";
+};
+object player {
+	name wd_671_wd_3br_58;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_58.csv";
+};
+object player {
+	name wd_671_wd_5br_167;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_167.csv";
+};
+object player {
+	name wd_671_wd_2br_86;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_86.csv";
+};
+object player {
+	name wd_671_wd_2br_87;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_87.csv";
+};
+object player {
+	name wd_671_wd_1br_39;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_39.csv";
+};
+object player {
+	name wd_671_wd_1br_282;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_282.csv";
+};
+object player {
+	name wd_671_wd_5br_10;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_10.csv";
+};
+object player {
+	name wd_671_wd_2br_348;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_348.csv";
+};
+object player {
+	name wd_671_wd_1br_25;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_25.csv";
+};
+object player {
+	name wd_671_wd_2br_65;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_65.csv";
+};
+object player {
+	name wd_671_wd_4br_288;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_288.csv";
+};
+object player {
+	name wd_671_wd_3br_199;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_199.csv";
+};
+object player {
+	name wd_671_wd_1br_339;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_339.csv";
+};
+object player {
+	name wd_671_wd_5br_92;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_92.csv";
+};
+object player {
+	name wd_671_wd_3br_177;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_177.csv";
+};
+object player {
+	name wd_671_wd_1br_150;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_150.csv";
+};
+object player {
+	name wd_671_wd_4br_88;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_88.csv";
+};
+object player {
+	name wd_671_wd_4br_331;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_331.csv";
+};
+object player {
+	name wd_671_wd_5br_136;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_136.csv";
+};
+object player {
+	name wd_671_wd_1br_100;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_100.csv";
+};
+object player {
+	name wd_671_wd_2br_321;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_321.csv";
+};
+object player {
+	name wd_671_wd_1br_22;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_22.csv";
+};
+object player {
+	name wd_671_wd_4br_158;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_158.csv";
+};
+object player {
+	name wd_671_wd_4br_65;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_65.csv";
+};
+object player {
+	name wd_671_wd_2br_34;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_34.csv";
+};
+object player {
+	name wd_671_wd_1br_166;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_166.csv";
+};
+object player {
+	name wd_671_wd_3br_132;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_132.csv";
+};
+object player {
+	name wd_671_wd_4br_124;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_124.csv";
+};
+object player {
+	name wd_671_wd_4br_136;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_136.csv";
+};
+object player {
+	name wd_671_wd_1br_34;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_34.csv";
+};
+object player {
+	name wd_671_wd_2br_330;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_330.csv";
+};
+object player {
+	name wd_671_wd_3br_322;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_322.csv";
+};
+object player {
+	name wd_671_wd_5br_90;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_90.csv";
+};
+object player {
+	name wd_671_wd_3br_327;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_327.csv";
+};
+object player {
+	name wd_671_wd_4br_337;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_337.csv";
+};
+object player {
+	name wd_671_wd_1br_128;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_128.csv";
+};
+object player {
+	name wd_671_wd_5br_311;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_311.csv";
+};
+object player {
+	name wd_671_wd_1br_313;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_313.csv";
+};
+object player {
+	name wd_671_wd_1br_107;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_107.csv";
+};
+object player {
+	name wd_671_wd_1br_265;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_265.csv";
+};
+object player {
+	name wd_671_wd_2br_279;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_279.csv";
+};
+object player {
+	name wd_671_wd_1br_85;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_85.csv";
+};
+object player {
+	name wd_671_wd_5br_1;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_1.csv";
+};
+object player {
+	name wd_671_wd_3br_234;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_234.csv";
+};
+object player {
+	name wd_671_wd_3br_311;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_311.csv";
+};
+object player {
+	name wd_671_wd_2br_216;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_216.csv";
+};
+object player {
+	name wd_671_wd_5br_215;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_215.csv";
+};
+object player {
+	name wd_671_wd_2br_208;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_208.csv";
+};
+object player {
+	name wd_671_wd_4br_257;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_257.csv";
+};
+object player {
+	name wd_671_wd_5br_252;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_252.csv";
+};
+object player {
+	name wd_671_wd_3br_247;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_247.csv";
+};
+object player {
+	name wd_671_wd_4br_27;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_27.csv";
+};
+object player {
+	name wd_671_wd_5br_289;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_289.csv";
+};
+object player {
+	name wd_671_wd_1br_116;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_116.csv";
+};
+object player {
+	name wd_671_wd_1br_207;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_207.csv";
+};
+object player {
+	name wd_671_wd_4br_30;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_30.csv";
+};
+object player {
+	name wd_671_wd_5br_135;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_135.csv";
+};
+object player {
+	name wd_671_wd_1br_218;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_218.csv";
+};
+object player {
+	name wd_671_wd_2br_9;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_9.csv";
+};
+object player {
+	name wd_671_wd_1br_250;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_250.csv";
+};
+object player {
+	name wd_671_wd_3br_122;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_122.csv";
+};
+object player {
+	name wd_671_wd_3br_37;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_37.csv";
+};
+object player {
+	name wd_671_wd_2br_95;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_95.csv";
+};
+object player {
+	name wd_671_wd_5br_151;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_151.csv";
+};
+object player {
+	name wd_671_wd_3br_228;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_228.csv";
+};
+object player {
+	name wd_671_wd_1br_154;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_154.csv";
+};
+object player {
+	name wd_671_wd_1br_240;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_240.csv";
+};
+object player {
+	name wd_680_wd_1br_76;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_76.csv";
+};
+object player {
+	name wd_680_wd_5br_86;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_86.csv";
+};
+object player {
+	name wd_680_wd_1br_26;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_26.csv";
+};
+object player {
+	name wd_680_wd_4br_185;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_185.csv";
+};
+object player {
+	name wd_680_wd_5br_177;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_177.csv";
+};
+object player {
+	name wd_680_wd_4br_268;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_268.csv";
+};
+object player {
+	name wd_680_wd_4br_300;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_300.csv";
+};
+object player {
+	name wd_680_wd_2br_338;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_338.csv";
+};
+object player {
+	name wd_680_wd_2br_238;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_238.csv";
+};
+object player {
+	name wd_680_wd_4br_12;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_12.csv";
+};
+object player {
+	name wd_680_wd_3br_250;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_250.csv";
+};
+object player {
+	name wd_680_wd_1br_285;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_285.csv";
+};
+object player {
+	name wd_680_wd_3br_203;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_203.csv";
+};
+object player {
+	name wd_680_wd_5br_33;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_33.csv";
+};
+object player {
+	name wd_680_wd_4br_21;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_21.csv";
+};
+object player {
+	name wd_680_wd_4br_9;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_9.csv";
+};
+object player {
+	name wd_680_wd_2br_168;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_168.csv";
+};
+object player {
+	name wd_680_wd_5br_6;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_6.csv";
+};
+object player {
+	name wd_680_wd_1br_53;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_53.csv";
+};
+object player {
+	name wd_680_wd_2br_264;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_264.csv";
+};
+object player {
+	name wd_680_wd_2br_225;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_225.csv";
+};
+object player {
+	name wd_680_wd_5br_75;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_75.csv";
+};
+object player {
+	name wd_680_wd_1br_77;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_77.csv";
+};
+object player {
+	name wd_680_wd_5br_267;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_267.csv";
+};
+object player {
+	name wd_680_wd_5br_201;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_201.csv";
+};
+object player {
+	name wd_680_wd_2br_292;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_292.csv";
+};
+object player {
+	name wd_680_wd_2br_116;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_116.csv";
+};
+object player {
+	name wd_680_wd_4br_326;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_326.csv";
+};
+object player {
+	name wd_680_wd_2br_274;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_274.csv";
+};
+object player {
+	name wd_680_wd_2br_27;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_27.csv";
+};
+object player {
+	name wd_680_wd_3br_217;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_217.csv";
+};
+object player {
+	name wd_680_wd_5br_52;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_52.csv";
+};
+object player {
+	name wd_680_wd_3br_102;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_102.csv";
+};
+object player {
+	name wd_680_wd_3br_110;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_110.csv";
+};
+object player {
+	name wd_680_wd_5br_222;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_222.csv";
+};
+object player {
+	name wd_680_wd_1br_152;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_152.csv";
+};
+object player {
+	name wd_680_wd_1br_137;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_137.csv";
+};
+object player {
+	name wd_680_wd_1br_268;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_268.csv";
+};
+object player {
+	name wd_680_wd_1br_220;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_220.csv";
+};
+object player {
+	name wd_680_wd_1br_271;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_271.csv";
+};
+object player {
+	name wd_680_wd_5br_228;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_228.csv";
+};
+object player {
+	name wd_680_wd_1br_16;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_16.csv";
+};
+object player {
+	name wd_680_wd_5br_302;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_302.csv";
+};
+object player {
+	name wd_680_wd_1br_42;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_42.csv";
+};
+object player {
+	name wd_680_wd_1br_333;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_333.csv";
+};
+object player {
+	name wd_680_wd_5br_308;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_308.csv";
+};
+object player {
+	name wd_680_wd_4br_105;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_105.csv";
+};
+object player {
+	name wd_680_wd_4br_229;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_229.csv";
+};
+object player {
+	name wd_680_wd_1br_201;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_201.csv";
+};
+object player {
+	name wd_680_wd_4br_106;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_106.csv";
+};
+object player {
+	name wd_680_wd_1br_346;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_346.csv";
+};
+object player {
+	name wd_680_wd_1br_277;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_277.csv";
+};
+object player {
+	name wd_680_wd_3br_139;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_139.csv";
+};
+object player {
+	name wd_680_wd_5br_126;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_126.csv";
+};
+object player {
+	name wd_680_wd_2br_48;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_48.csv";
+};
+object player {
+	name wd_680_wd_3br_8;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_8.csv";
+};
+object player {
+	name wd_680_wd_5br_189;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_189.csv";
+};
+object player {
+	name wd_680_wd_2br_300;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_300.csv";
+};
+object player {
+	name wd_680_wd_1br_130;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_130.csv";
+};
+object player {
+	name wd_680_wd_4br_320;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_320.csv";
+};
+object player {
+	name wd_680_wd_2br_247;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_247.csv";
+};
+object player {
+	name wd_680_wd_4br_150;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_150.csv";
+};
+object player {
+	name wd_680_wd_4br_178;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_178.csv";
+};
+object player {
+	name wd_680_wd_1br_145;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_145.csv";
+};
+object player {
+	name wd_680_wd_1br_164;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_164.csv";
+};
+object player {
+	name wd_680_wd_2br_301;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_301.csv";
+};
+object player {
+	name wd_680_wd_5br_205;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_205.csv";
+};
+object player {
+	name wd_680_wd_2br_22;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_22.csv";
+};
+object player {
+	name wd_680_wd_5br_110;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_110.csv";
+};
+object player {
+	name wd_680_wd_3br_98;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_98.csv";
+};
+object player {
+	name wd_680_wd_2br_217;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_217.csv";
+};
+object player {
+	name wd_680_wd_4br_17;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_17.csv";
+};
+object player {
+	name wd_680_wd_2br_79;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_79.csv";
+};
+object player {
+	name wd_680_wd_5br_182;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_182.csv";
+};
+object player {
+	name wd_680_wd_2br_75;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_75.csv";
+};
+object player {
+	name wd_680_wd_1br_244;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_244.csv";
+};
+object player {
+	name wd_680_wd_5br_240;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_240.csv";
+};
+object player {
+	name wd_680_wd_3br_140;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_140.csv";
+};
+object player {
+	name wd_680_wd_2br_166;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_166.csv";
+};
+object player {
+	name wd_680_wd_1br_284;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_284.csv";
+};
+object player {
+	name wd_680_wd_5br_20;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_20.csv";
+};
+object player {
+	name wd_680_wd_4br_345;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_345.csv";
+};
+object player {
+	name wd_680_wd_4br_134;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_134.csv";
+};
+object player {
+	name wd_680_wd_1br_336;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_336.csv";
+};
+object player {
+	name wd_680_wd_3br_75;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_75.csv";
+};
+object player {
+	name wd_680_wd_4br_28;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_28.csv";
+};
+object player {
+	name wd_680_wd_5br_326;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_326.csv";
+};
+object player {
+	name wd_680_wd_3br_82;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_82.csv";
+};
+object player {
+	name wd_680_wd_2br_199;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_199.csv";
+};
+object player {
+	name wd_680_wd_4br_293;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_293.csv";
+};
+object player {
+	name wd_680_wd_1br_151;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_151.csv";
+};
+object player {
+	name wd_680_wd_5br_209;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_209.csv";
+};
+object player {
+	name wd_680_wd_3br_288;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_288.csv";
+};
+object player {
+	name wd_680_wd_4br_33;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_33.csv";
+};
+object player {
+	name wd_680_wd_3br_42;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_42.csv";
+};
+object player {
+	name wd_680_wd_1br_308;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_308.csv";
+};
+object player {
+	name wd_680_wd_5br_310;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_310.csv";
+};
+object player {
+	name wd_680_wd_5br_168;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_168.csv";
+};
+object player {
+	name wd_680_wd_4br_58;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_58.csv";
+};
+object player {
+	name wd_680_wd_2br_176;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_176.csv";
+};
+object player {
+	name wd_680_wd_4br_60;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_60.csv";
+};
+object player {
+	name wd_680_wd_1br_118;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_118.csv";
+};
+object player {
+	name wd_680_wd_3br_209;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_209.csv";
+};
+object player {
+	name wd_680_wd_3br_76;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_76.csv";
+};
+object player {
+	name wd_680_wd_1br_280;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_280.csv";
+};
+object player {
+	name wd_680_wd_4br_208;
+	file "../../outputs/psu_feeder_wd_profiles/wd_4br_208.csv";
+};
+object player {
+	name wd_680_wd_3br_112;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_112.csv";
+};
+object player {
+	name wd_680_wd_1br_275;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_275.csv";
+};
+object player {
+	name wd_680_wd_2br_144;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_144.csv";
+};
+object player {
+	name wd_680_wd_3br_261;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_261.csv";
+};
+object player {
+	name wd_680_wd_3br_29;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_29.csv";
+};
+object player {
+	name wd_680_wd_2br_164;
+	file "../../outputs/psu_feeder_wd_profiles/wd_2br_164.csv";
+};
+object player {
+	name wd_680_wd_3br_77;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_77.csv";
+};
+object player {
+	name wd_680_wd_1br_106;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_106.csv";
+};
+object player {
+	name wd_680_wd_5br_152;
+	file "../../outputs/psu_feeder_wd_profiles/wd_5br_152.csv";
+};
+object player {
+	name wd_680_wd_3br_312;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_312.csv";
+};
+object player {
+	name wd_680_wd_3br_28;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_28.csv";
+};
+object player {
+	name wd_680_wd_3br_167;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_167.csv";
+};
+object player {
+	name wd_680_wd_3br_315;
+	file "../../outputs/psu_feeder_wd_profiles/wd_3br_315.csv";
+};
+object player {
+	name wd_680_wd_1br_170;
+	file "../../outputs/psu_feeder_wd_profiles/wd_1br_170.csv";
+};
