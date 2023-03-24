@@ -90,7 +90,7 @@ if __name__ == '__main__':
     resample_data = resampling()
     
     for files in os.listdir(resample_data.wd_files):
-        if files.endswith('csv'):
+        if files.startswith('std'):
             resample_data.sum_draws(files)
             resample_data.create_full_day_df()
             resample_data.wr_csv(files)
