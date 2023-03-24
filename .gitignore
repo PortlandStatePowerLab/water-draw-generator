@@ -1,6 +1,6 @@
 # Remove large csv files:
 
-/outputs/**/*.csv
+/outputs/*.csv
 /populated_13_node_feeder_whs/glm/glm_output/*.csv
 
 # Remove temp files
