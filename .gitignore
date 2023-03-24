@@ -1,7 +1,3 @@
-# Remove large csv files:
-
-
-
 # Remove temp files
 
 **/populated_13_node_feeder_whs/python/plots_py.py
