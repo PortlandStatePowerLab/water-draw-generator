@@ -49,12 +49,11 @@ class create_glm_objects():
 
     # Open recorder and player files
     def open_files(self):
-        with open(f"{self.json_path}{self.downstream_obj}.json", "r") as file:
-            self.down_stream_obj = json.load(file)
-        
+        self.down_stream_obj = glm.load(f'{self.glm_path}{self.downstream_obj}.glm')
         self.water_heaters = open (f'{self.glm_path}waterheaters.glm', 'w')
         self.multi_recorders = open (f'{self.glm_path}{self.recorders_file_name}','w')
         self.player_objects = open (f'{self.glm_path}{self.player_objects_file_name}', 'w')
+        
 
     
     # Pull meter object names to link to recorders
@@ -63,13 +62,12 @@ class create_glm_objects():
         self.node = []
         self.meter_names = []
         self.recorders_property = []
+
         for i in self.down_stream_obj['objects']:
-            if 'name' in i['attributes']:
-                if i['attributes']['name'].startswith('trip_node_meter'):
-                    self.meter_names.append(i['attributes']['name'])
-                
-                if i['attributes']['name'].startswith('wh_'):
-                    self.node.append(re.findall(r'\d+',i['attributes']['name'])[0])
+            if i['name'] == 'triplex_meter':                    
+                self.meter_names.append(i['attributes']['name'])
+            if i['name'] == 'waterheater':
+                self.node.append(re.findall(r'\d+',i['attributes']['name'])[0])
                     
     # Get properties for multi-recorder objects
     def setup_recorder_properties(self):

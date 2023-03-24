@@ -1,8 +1,9 @@
 # Remove large csv files:
 
-**/outputs/**
+/outputs/*.csv
+/outputs/psu_feeder_wd_profiles/*.csv
 **/populated_13_node_feeder_whs/wd_files/**
-**/populated_13_node_feeder_whs/glm_output/**
+**/populated_13_node_feeder_whs/glm/glm_output/*
 
 # Remove temp files
 
