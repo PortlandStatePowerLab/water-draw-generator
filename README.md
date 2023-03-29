@@ -48,4 +48,7 @@ Based on the standard DHW sheets.
   - Run the plots_py.py script:
     - ```python3 plots_py.py```
   - The script will generate a plot for each water heater object response. 
-  - NOTE: **The title for each plot is the directory and the name of the water draw profile that the water heater object uses**
+- **NOTES**: 
+  - **The title for each plot is the directory and the name of the water draw profile that the water heater object uses**
+  ---
+  - **The GridLAB-D file is already executed for your convenience. To generate a new set of output files, you need to run the main GridLAB-D file, as mentioned above**
