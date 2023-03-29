@@ -41,3 +41,11 @@ Based on the standard DHW sheets.
   - The simulation may take some time, depending on your OS. Once the simulation is done, the output files can be found in the following directory:
     - ```cd glm_output/```
   - Within the above directory, you'll find 39 files. Each file contains data for 25 water heaters in one-minute resolution.
+
+- To visualize the water heater objects responses to the newly generated Water Draw profiles:
+  - change the directory to the plots_py.py script:
+    - ```cd populated_13_node_feeder_whs/python/```
+  - Run the plots_py.py script:
+    - ```python3 plots_py.py```
+  - The script will generate a plot for each water heater object response. 
+  - NOTE: **The title for each plot is the directory and the name of the water draw profile that the water heater object uses**
