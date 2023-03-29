@@ -2,11 +2,7 @@
 
 /outputs/std*.csv
 /outputs/psu_feeder_wd_profiles/wd*.csv
-/populated_13_node_feeder_whs/glm/glm_output/*.csv
 
-# Remove temp files
-
-**/populated_13_node_feeder_whs/python/plots_py.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
