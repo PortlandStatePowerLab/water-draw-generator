@@ -1,8 +1,12 @@
 # Remove large csv files:
 
-/outputs/std*.csv
-/outputs/psu_feeder_wd_profiles/wd*.csv
+**/outputs/**
+**/populated_13_node_feeder_whs/wd_files/**
+**/populated_13_node_feeder_whs/glm_output/**
 
+# Remove temp files:
+**/populated_13_node_feeder_whs/python/plots_py.py
+**/scripts/deb.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

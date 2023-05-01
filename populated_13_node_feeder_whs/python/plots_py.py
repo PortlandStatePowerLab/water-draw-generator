@@ -29,7 +29,6 @@ def plots(df, files):
 def main(glm_outpu_files_path):
 
     for files in os.listdir(glm_outpu_files_path):
-        
         df = pd.read_csv(glm_outpu_files_path+files, skiprows=range(0,7))
         df = clean_files(df)
         plots(df, files)
