@@ -68,11 +68,11 @@ class resampling():
         return merged_df
 
     def write_files (self, df, f_name):
-        df.to_csv(f'{self.output_files}{f_name}', index=False)
+        df.to_csv(f'{self.output_files}{f_name}', index=False, header=False)
     
     def set_output_f_name(self,file):
         br = file.split('.')[0]
-        br = file.replace("std","wd").replace("-dwh-","-")
+        br = file.replace("std-","wd_").replace("-dwh-","_")
         return br
 
 

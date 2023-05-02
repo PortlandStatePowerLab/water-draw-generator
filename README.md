@@ -23,6 +23,7 @@ Based on the standard DHW sheets.
     ```python3 dhw_daily.py```
 
   - The above command will export several stacked water draw profiles.
+  - The files are written to the ```./outputs/``` directory.
 ---
 - Run the resample_wd_profiles script:
     
@@ -31,6 +32,7 @@ Based on the standard DHW sheets.
   - The above command will export full-day water draw profiles with a one-minute time resolution.
   - The time resolution can be adjusted from the script, as well as the starting time and ending time.
   - Instructions are available in the 'resample_wd_profiles' script.
+  - The files are written to the ```./outputs/psu_feeder_wd_profiles/``` directory.
 ---
 - To test the exported water draw profiles on water heater objects using GridLAB-D:
   
